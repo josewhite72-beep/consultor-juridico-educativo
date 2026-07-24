@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16324F">
+<title>Consultoría Jurídica Educativa · Panamá</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16324F;
+    --ink-soft:#3C5573;
+    --paper:#EFECE3;
+    --paper-raised:#FBF9F3;
+    --line:#D8D2C0;
+    --red:#B23A2E;
+    --gold:#A9791F;
+    --green:#3D6B4C;
+    --radius:2px;
+    --serif:'Source Serif 4', Georgia, serif;
+    --sans:'IBM Plex Sans', system-ui, sans-serif;
+    --mono:'IBM Plex Mono', ui-monospace, monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---------- Encabezado institucional ---------- */
+  header.topbar{
+    background:var(--ink);
+    color:var(--paper-raised);
+    padding:14px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    position:sticky;
+    top:0;
+    z-index:40;
+    border-bottom:3px solid var(--gold);
+  }
+  .brand{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  .brand .seal{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:.14em;
+    color:var(--gold);
+    border:1px solid var(--gold);
+    padding:3px 6px;
+    border-radius:var(--radius);
+  }
+  .brand h1{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:19px;
+    margin:0;
+    letter-spacing:.01em;
+  }
+  .brand h1 small{
+    display:block;
+    font-family:var(--sans);
+    font-size:11px;
+    font-weight:400;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:#C9D3DE;
+    margin-top:2px;
+  }
+  .topbar-actions{display:flex;gap:8px;align-items:center;}
+  .icon-btn{
+    background:transparent;
+    border:1px solid rgba(255,255,255,.28);
+    color:var(--paper-raised);
+    width:34px;height:34px;
+    border-radius:var(--radius);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;
+  }
+  .icon-btn:hover{background:rgba(255,255,255,.1);}
+
+  /* ---------- Layout ---------- */
+  .shell{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    min-height:calc(100vh - 62px);
+  }
+  @media (max-width:860px){
+    .shell{grid-template-columns:1fr;}
+    aside.filters{
+      position:fixed; inset:0 0 0 auto; width:min(320px,86vw);
+      transform:translateX(100%);
+      transition:transform .22s ease;
+      z-index:50;
+      box-shadow:-8px 0 24px rgba(0,0,0,.25);
+    }
+    aside.filters.open{transform:translateX(0);}
+    .scrim{display:none;position:fixed;inset:0;background:rgba(22,50,79,.4);z-index:45;}
+    .scrim.open{display:block;}
+  }
+
+  aside.filters{
+    background:var(--paper-raised);
+    border-right:1px solid var(--line);
+    padding:18px 16px 40px;
+    overflow-y:auto;
+  }
+  aside.filters h2{
+    font-family:var(--serif);
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--ink-soft);
+    margin:22px 0 10px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:6px;
+  }
+  aside.filters h2:first-child{margin-top:0;}
+
+  .search-box{
+    display:flex;
+    border:1.5px solid var(--ink);
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:#fff;
+  }
+  .search-box input{
+    flex:1; border:none; padding:10px 10px;
+    font-family:var(--sans); font-size:14px; outline:none; background:transparent;
+  }
+  .search-box button{
+    border:none; background:var(--ink); color:#fff; padding:0 14px; cursor:pointer;
+    font-size:15px;
+  }
+
+  .cat-list{list-style:none;margin:0;padding:0;}
+  .cat-list li{margin-bottom:2px;}
+  .cat-list button{
+    width:100%; text-align:left; background:none; border:none; cursor:pointer;
+    padding:7px 8px; font-family:var(--sans); font-size:13px; color:var(--ink-soft);
+    border-radius:var(--radius);
+    display:flex; justify-content:space-between; gap:6px;
+  }
+  .cat-list button:hover{background:var(--paper);}
+  .cat-list button.active{background:var(--ink); color:#fff;}
+  .cat-list .count{font-family:var(--mono); font-size:11px; opacity:.7;}
+
+  .clear-filters{
+    margin-top:10px; font-size:12px; color:var(--red); background:none;border:none;
+    cursor:pointer; text-decoration:underline; padding:0;
+  }
+
+  /* ---------- Contenido principal ---------- */
+  main{padding:22px 26px 60px; max-width:920px;}
+  .status-line{
+    font-family:var(--mono); font-size:12px; color:var(--ink-soft);
+    margin-bottom:16px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
+  }
+
+  .mobile-filter-toggle{
+    display:none;
+    font-family:var(--sans); font-size:13px; border:1px solid var(--ink);
+    background:#fff; padding:8px 12px; border-radius:var(--radius); cursor:pointer;
+    margin-bottom:14px;
+  }
+  @media (max-width:860px){.mobile-filter-toggle{display:inline-block;}}
+
+  .article-card{
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+    border-left:4px solid var(--ink-soft);
+    border-radius:var(--radius);
+    margin-bottom:14px;
+    padding:14px 16px;
+    cursor:pointer;
+  }
+  .article-card:hover{border-left-color:var(--gold);}
+  .article-card .meta{
+    display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap;
+  }
+  .article-card .fuente{
+    font-family:var(--sans); font-size:12.5px; font-weight:600; color:var(--ink-soft);
+  }
+  .article-card .art-tag{
+    font-family:var(--mono); font-size:12px; background:var(--ink); color:#fff;
+    padding:2px 7px; border-radius:var(--radius); white-space:nowrap;
+  }
+  .article-card .snippet{
+    font-family:var(--serif); font-size:15px; line-height:1.55; margin-top:8px; color:var(--ink);
+  }
+  .article-card .snippet mark{background:#F3D9A0; color:inherit;}
+  .article-card.expanded .snippet{white-space:pre-wrap;}
+  .article-card .full-meta{
+    font-family:var(--sans); font-size:11.5px; color:var(--ink-soft); margin-top:8px;
+    border-top:1px dashed var(--line); padding-top:8px;
+  }
+
+  .empty-state{
+    font-family:var(--serif); font-size:16px; color:var(--ink-soft);
+    padding:40px 10px; text-align:center;
+  }
+
+  /* ---------- Asistente IA (panel flotante) ---------- */
+  .ai-fab{
+    position:fixed; right:22px; bottom:22px; z-index:55;
+    background:var(--red); color:#fff; border:none; border-radius:999px;
+    padding:13px 18px; font-family:var(--sans); font-weight:600; font-size:14px;
+    box-shadow:0 6px 18px rgba(178,58,46,.4); cursor:pointer;
+    display:flex; align-items:center; gap:8px;
+  }
+  .ai-panel{
+    position:fixed; right:22px; bottom:80px; width:min(420px,92vw); max-height:70vh;
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:6px;
+    box-shadow:0 14px 40px rgba(0,0,0,.25); z-index:56; display:none; flex-direction:column;
+    overflow:hidden;
+  }
+  .ai-panel.open{display:flex;}
+  .ai-panel header{
+    background:var(--ink); color:#fff; padding:10px 14px; font-family:var(--serif); font-size:14px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .ai-panel header button{background:none;border:none;color:#fff;cursor:pointer;font-size:16px;}
+  .ai-body{padding:12px 14px; overflow-y:auto; flex:1; font-size:13.5px; line-height:1.55;}
+  .ai-body .disclaimer{
+    font-family:var(--sans); font-size:11.5px; color:var(--ink-soft); background:var(--paper);
+    border:1px dashed var(--line); padding:8px 10px; border-radius:var(--radius); margin-bottom:10px;
+  }
+  .ai-msg{margin-bottom:12px;}
+  .ai-msg.user{font-weight:600; color:var(--ink);}
+  .ai-msg.assistant{font-family:var(--serif); white-space:pre-wrap;}
+  .ai-msg .cites{margin-top:6px; font-family:var(--mono); font-size:11px; color:var(--ink-soft);}
+  .ai-input-row{display:flex; border-top:1px solid var(--line);}
+  .ai-input-row textarea{
+    flex:1; border:none; resize:none; padding:10px; font-family:var(--sans); font-size:13px;
+    outline:none; min-height:44px; max-height:120px;
+  }
+  .ai-input-row button{
+    border:none; background:var(--red); color:#fff; padding:0 16px; cursor:pointer; font-weight:600;
+  }
+  .ai-input-row button:disabled{opacity:.5; cursor:default;}
+
+  /* ---------- Modal de ajustes ---------- */
+  .modal-scrim{
+    display:none; position:fixed; inset:0; background:rgba(22,50,79,.45); z-index:70;
+    align-items:center; justify-content:center;
+  }
+  .modal-scrim.open{display:flex;}
+  .modal{
+    background:var(--paper-raised); width:min(420px,90vw); border-radius:6px; padding:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.3);
+  }
+  .modal h3{font-family:var(--serif); margin-top:0;}
+  .modal label{display:block; font-size:12.5px; font-weight:600; margin:14px 0 6px;}
+  .modal input[type="password"], .modal input[type="text"]{
+    width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:var(--radius); font-family:var(--mono);
+    font-size:13px;
+  }
+  .modal .hint{font-size:11.5px; color:var(--ink-soft); margin-top:6px;}
+  .modal .row{display:flex; gap:10px; margin-top:18px;}
+  .modal button{
+    flex:1; padding:10px; border-radius:var(--radius); border:1px solid var(--ink); cursor:pointer;
+    font-family:var(--sans); font-weight:600; font-size:13px;
+  }
+  .modal button.primary{background:var(--ink); color:#fff;}
+  .modal button.ghost{background:none; color:var(--ink);}
+  .modal button.danger{background:none; color:var(--red); border-color:var(--red);}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="seal">PanaMentorLabs</span>
+    <h1>Consultoría Jurídica Educativa
+      <small>Marco jurídico de la educación panameña</small>
+    </h1>
+  </div>
+  <div class="topbar-actions">
+    <button class="icon-btn" id="settingsBtn" title="Ajustes" aria-label="Ajustes">⚙</button>
+  </div>
+</header>
+
+<div class="shell">
+  <div class="scrim" id="scrim"></div>
+  <aside class="filters" id="filtersPanel">
+    <h2>Buscar</h2>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Palabra, artículo, ley…">
+      <button id="searchBtn" aria-label="Buscar">🔍</button>
+    </div>
+
+    <h2>Fuentes normativas</h2>
+    <ul class="cat-list" id="catList"><!-- se llena por JS --></ul>
+    <button class="clear-filters" id="clearFilters">Quitar filtro</button>
+  </aside>
+
+  <main>
+    <button class="mobile-filter-toggle" id="mobileFilterToggle">☰ Buscar y filtrar</button>
+    <div class="status-line">
+      <span id="statusText">Cargando corpus normativo…</span>
+      <span id="statusCount"></span>
+    </div>
+    <div id="results"></div>
+  </main>
+</div>
+
+<button class="ai-fab" id="aiFab">💬 Preguntar</button>
+<div class="ai-panel" id="aiPanel">
+  <header>
+    <span>Asistente jurídico (IA)</span>
+    <button id="aiCloseBtn" aria-label="Cerrar">✕</button>
+  </header>
+  <div class="ai-body" id="aiBody">
+    <div class="disclaimer">
+      Esta herramienta ofrece información de referencia, no asesoría legal.
+      Verifica siempre con la fuente oficial (Gaceta Oficial) antes de tomar decisiones.
+    </div>
+  </div>
+  <div class="ai-input-row">
+    <textarea id="aiInput" placeholder="Ej: ¿Cuántos días de vacaciones tiene un docente?"></textarea>
+    <button id="aiSendBtn">Enviar</button>
+  </div>
+</div>
+
+<div class="modal-scrim" id="settingsScrim">
+  <div class="modal">
+    <h3>Ajustes</h3>
+    <label for="apiKeyInput">Clave de API de Groq</label>
+    <input type="password" id="apiKeyInput" placeholder="gsk_...">
+    <p class="hint">Se guarda solo en este dispositivo (localStorage). Necesaria para usar el asistente de IA.
+      Consíguela en <span style="font-family:var(--mono)">console.groq.com</span>.</p>
+    <div class="row">
+      <button class="ghost" id="settingsCancel">Cerrar</button>
+      <button class="primary" id="settingsSave">Guardar</button>
+    </div>
+    <div class="row">
+      <button class="danger" id="clearCacheBtn">Limpiar caché de la app</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---------- Estado ----------
+  let corpus = [];
+  let activeCategory = null;
+  let lastQuery = "";
+  const RESULT_LIMIT = 80;
+
+  const els = {
+    searchInput: document.getElementById('searchInput'),
+    searchBtn: document.getElementById('searchBtn'),
+    catList: document.getElementById('catList'),
+    clearFilters: document.getElementById('clearFilters'),
+    results: document.getElementById('results'),
+    statusText: document.getElementById('statusText'),
+    statusCount: document.getElementById('statusCount'),
+    filtersPanel: document.getElementById('filtersPanel'),
+    scrim: document.getElementById('scrim'),
+    mobileFilterToggle: document.getElementById('mobileFilterToggle'),
+  };
+
+  // ---------- Utilidades de texto ----------
+  function normalize(str){
+    return (str || "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // quita acentos
+  }
+
+  function highlight(text, terms){
+    if(!terms.length) return escapeHtml(text);
+    let safe = escapeHtml(text);
+    terms.forEach(t=>{
+      if(!t) return;
+      const re = new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + ")", "gi");
+      safe = safe.replace(re, "<mark>$1</mark>");
+    });
+    return safe;
+  }
+
+  function escapeHtml(s){
+    return (s||"").replace(/[&<>"']/g, c => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[c]));
+  }
+
+  function snippet(text, terms, radius){
+    radius = radius || 220;
+    if(!terms.length) return text.slice(0, radius) + (text.length>radius ? "…" : "");
+    const nt = normalize(text);
+    for(const t of terms){
+      const idx = nt.indexOf(t);
+      if(idx !== -1){
+        const start = Math.max(0, idx - radius/2);
+        const end = Math.min(text.length, idx + radius/2);
+        return (start>0?"…":"") + text.slice(start,end) + (end<text.length?"…":"");
+      }
+    }
+    return text.slice(0, radius) + (text.length>radius ? "…" : "");
+  }
+
+  // ---------- Carga del corpus ----------
+  function loadCorpus(){
+    return fetch('./data/corpus.json')
+      .then(r => {
+        if(!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(data => {
+        corpus = data;
+        buildCategoryList();
+        render();
+      })
+      .catch(err => {
+        els.statusText.textContent = "No se pudo cargar el corpus normativo (" + err.message + ").";
+      });
+  }
+
+  function buildCategoryList(){
+    const counts = {};
+    corpus.forEach(a => { counts[a.categoria] = (counts[a.categoria]||0) + 1; });
+    const cats = Object.keys(counts).sort();
+    els.catList.innerHTML = cats.map(c =>
+      `<li><button data-cat="${escapeHtml(c)}">
+        <span>${escapeHtml(c)}</span><span class="count">${counts[c]}</span>
+      </button></li>`
+    ).join("");
+  }
+
+  els.catList.addEventListener('click', (e)=>{
+    const btn = e.target.closest('button[data-cat]');
+    if(!btn) return;
+    activeCategory = btn.dataset.cat;
+    document.querySelectorAll('.cat-list button').forEach(b=>b.classList.toggle('active', b===btn));
+    render();
+    closeMobileFilters();
+  });
+
+  els.clearFilters.addEventListener('click', ()=>{
+    activeCategory = null;
+    document.querySelectorAll('.cat-list button').forEach(b=>b.classList.remove('active'));
+    render();
+  });
+
+  // ---------- Búsqueda ----------
+  function search(query){
+    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    let pool = corpus;
+    if(activeCategory) pool = pool.filter(a => a.categoria === activeCategory);
+    if(!terms.length) return pool.slice(0, RESULT_LIMIT).map(a=>({item:a, score:0}));
+
+    const scored = [];
+    for(const a of pool){
+      const hay = normalize((a.fuente||"") + " " + (a.titulo||"") + " " + a.texto + " art " + a.articulo);
+      let score = 0;
+      for(const t of terms){
+        if(!t) continue;
+        if(hay.includes(t)){
+          score += 1;
+          if(normalize(a.fuente||"").includes(t)) score += 2;
+          if(normalize(a.titulo||"").includes(t)) score += 2;
+          if(normalize(String(a.articulo)) === t) score += 5;
+        }
+      }
+      if(score>0) scored.push({item:a, score});
+    }
+    scored.sort((x,y)=> y.score - x.score);
+    return scored.slice(0, RESULT_LIMIT);
+  }
+
+  function render(){
+    const query = els.searchInput.value.trim();
+    lastQuery = query;
+    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    const matches = search(query);
+
+    els.statusText.textContent = query
+      ? `Resultados para "${query}"` + (activeCategory ? ` en ${activeCategory}` : "")
+      : (activeCategory ? `Explorando: ${activeCategory}` : `Explorando todo el corpus`);
+    els.statusCount.textContent = `${matches.length}${matches.length===RESULT_LIMIT?"+":""} de ${corpus.length} artículos`;
+
+    if(!matches.length){
+      els.results.innerHTML = `<div class="empty-state">Sin coincidencias. Prueba con otra palabra clave o quita el filtro de fuente.</div>`;
+      return;
+    }
+
+    els.results.innerHTML = matches.map(({item:a}) => `
+      <article class="article-card" data-id="${a.id}">
+        <div class="meta">
+          <span class="fuente">${escapeHtml(a.fuente)}</span>
+          <span class="art-tag">Art. ${escapeHtml(a.articulo)}${a.articulo_original ? " (" + escapeHtml(a.articulo_original) + ")" : ""}</span>
+        </div>
+        <div class="snippet" data-full="0">${highlight(snippet(a.texto, terms), terms)}</div>
+      </article>
+    `).join("");
+  }
+
+  els.results.addEventListener('click', (e)=>{
+    const card = e.target.closest('.article-card');
+    if(!card) return;
+    const id = Number(card.dataset.id);
+    const item = corpus.find(a => a.id === id);
+    if(!item) return;
+    const snippetEl = card.querySelector('.snippet');
+    const isExpanded = card.classList.toggle('expanded');
+    const terms = normalize(lastQuery).split(/\s+/).filter(Boolean);
+    if(isExpanded){
+      snippetEl.innerHTML = highlight(item.texto, terms);
+      let metaEl = card.querySelector('.full-meta');
+      if(!metaEl){
+        metaEl = document.createElement('div');
+        metaEl.className = 'full-meta';
+        card.appendChild(metaEl);
+      }
+      metaEl.textContent = [item.categoria, item.fecha, item.titulo].filter(Boolean).join(" · ");
+    } else {
+      snippetEl.innerHTML = highlight(snippet(item.texto, terms), terms);
+      const metaEl = card.querySelector('.full-meta');
+      if(metaEl) metaEl.remove();
+    }
+  });
+
+  els.searchBtn.addEventListener('click', render);
+  els.searchInput.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') render(); });
+
+  // ---------- Panel de filtros en móvil ----------
+  function openMobileFilters(){ els.filtersPanel.classList.add('open'); els.scrim.classList.add('open'); }
+  function closeMobileFilters(){ els.filtersPanel.classList.remove('open'); els.scrim.classList.remove('open'); }
+  els.mobileFilterToggle.addEventListener('click', openMobileFilters);
+  els.scrim.addEventListener('click', closeMobileFilters);
+
+  // ---------- Ajustes / clave API ----------
+  const settingsBtn = document.getElementById('settingsBtn');
+  const settingsScrim = document.getElementById('settingsScrim');
+  const apiKeyInput = document.getElementById('apiKeyInput');
+  settingsBtn.addEventListener('click', ()=>{
+    apiKeyInput.value = localStorage.getItem('groqApiKey') || '';
+    settingsScrim.classList.add('open');
+  });
+  document.getElementById('settingsCancel').addEventListener('click', ()=> settingsScrim.classList.remove('open'));
+  document.getElementById('settingsSave').addEventListener('click', ()=>{
+    localStorage.setItem('groqApiKey', apiKeyInput.value.trim());
+    settingsScrim.classList.remove('open');
+  });
+  document.getElementById('clearCacheBtn').addEventListener('click', ()=>{
+    if(navigator.serviceWorker.controller){
+      navigator.serviceWorker.controller.postMessage('CLEAR_CACHE');
+    }
+    caches?.keys?.().then(names => names.forEach(n => caches.delete(n)));
+    localStorage.removeItem('groqApiKey');
+    location.reload();
+  });
+
+  // ---------- Asistente IA (Groq) ----------
+  const aiFab = document.getElementById('aiFab');
+  const aiPanel = document.getElementById('aiPanel');
+  const aiBody = document.getElementById('aiBody');
+  const aiInput = document.getElementById('aiInput');
+  const aiSendBtn = document.getElementById('aiSendBtn');
+
+  aiFab.addEventListener('click', ()=> aiPanel.classList.toggle('open'));
+  document.getElementById('aiCloseBtn').addEventListener('click', ()=> aiPanel.classList.remove('open'));
+
+  function topRelevant(query, n){
+    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    const scored = corpus.map(a=>{
+      const hay = normalize((a.fuente||"") + " " + (a.titulo||"") + " " + a.texto);
+      let score = 0;
+      terms.forEach(t=>{ if(hay.includes(t)) score += 1; });
+      return {item:a, score};
+    }).filter(x=>x.score>0);
+    scored.sort((a,b)=> b.score - a.score);
+    return scored.slice(0, n).map(x=>x.item);
+  }
+
+  function addAiMessage(role, html){
+    const div = document.createElement('div');
+    div.className = 'ai-msg ' + role;
+    div.innerHTML = html;
+    aiBody.appendChild(div);
+    aiBody.scrollTop = aiBody.scrollHeight;
+    return div;
+  }
+
+  async function askAssistant(){
+    const question = aiInput.value.trim();
+    if(!question) return;
+    const apiKey = localStorage.getItem('groqApiKey');
+    if(!apiKey){
+      addAiMessage('assistant', 'Primero configura tu clave de API de Groq en Ajustes (⚙).');
+      return;
+    }
+    addAiMessage('user', escapeHtml(question));
+    aiInput.value = '';
+    aiSendBtn.disabled = true;
+    const loadingEl = addAiMessage('assistant', 'Consultando el marco jurídico…');
+
+    const relevant = topRelevant(question, 6);
+    const context = relevant.map(a =>
+      `[${a.fuente} — Art. ${a.articulo}]\n${a.texto}`
+    ).join("\n\n---\n\n");
+
+    const systemPrompt = `Eres un asistente de referencia sobre el marco jurídico de la educación panameña.
+Responde SOLO con base en los artículos de contexto proporcionados. Si el contexto no alcanza para responder,
+dilo claramente en vez de inventar. Cita siempre la fuente y el número de artículo entre corchetes, ej: [Ley 47, Art. 12].
+Aclara que esto es información de referencia y no asesoría legal formal. Responde en español, de forma clara y breve.`;
+
+    try{
+      const resp = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + apiKey
+        },
+        body: JSON.stringify({
+          model: 'llama-3.3-70b-versatile',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: `Contexto normativo:\n\n${context}\n\nPregunta: ${question}` }
+          ],
+          temperature: 0.2
+        })
+      });
+      if(!resp.ok){
+        const errText = await resp.text();
+        throw new Error(`HTTP ${resp.status}: ${errText.slice(0,200)}`);
+      }
+      const data = await resp.json();
+      const answer = data.choices?.[0]?.message?.content || '(Sin respuesta)';
+      loadingEl.innerHTML = escapeHtml(answer).replace(/\n/g,'<br>');
+      const cites = relevant.map(a => `${a.fuente} — Art. ${a.articulo}`).join(' · ');
+      const citesEl = document.createElement('div');
+      citesEl.className = 'cites';
+      citesEl.textContent = 'Fuentes consultadas: ' + cites;
+      loadingEl.appendChild(citesEl);
+    } catch(err){
+      loadingEl.textContent = 'Error al consultar la IA: ' + err.message;
+    } finally {
+      aiSendBtn.disabled = false;
+    }
+  }
+
+  aiSendBtn.addEventListener('click', askAssistant);
+  aiInput.addEventListener('keydown', (e)=>{
+    if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); askAssistant(); }
+  });
+
+  // ---------- Service worker ----------
+  if('serviceWorker' in navigator){
+    window.addEventListener('load', ()=>{
+      navigator.serviceWorker.register('./sw.js').catch(()=>{});
+    });
+  }
+
+  // ---------- Arranque ----------
+  loadCorpus();
+})();
+</script>
+</body>
+</html>
