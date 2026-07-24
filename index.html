@@ -416,8 +416,9 @@
   }
 
   // ---------- Carga del corpus ----------
-  function loadCorpus(){
-    return fetch('./data/corpus.json')
+  function loadCorpus(forceFresh){
+    const url = forceFresh ? './data/corpus.json?t=' + Date.now() : './data/corpus.json';
+    return fetch(url, forceFresh ? { cache: 'reload' } : {})
       .then(r => {
         if(!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
@@ -428,7 +429,14 @@
         render();
       })
       .catch(err => {
-        els.statusText.textContent = "No se pudo cargar el corpus normativo (" + err.message + ").";
+        els.statusText.innerHTML = "No se pudo cargar el corpus normativo (" + escapeHtml(err.message) +
+          "). Puede ser una descarga incompleta por señal débil. " +
+          '<button id="retryLoadBtn" style="margin-left:8px;font-family:var(--sans);font-size:12px;padding:3px 9px;border:1px solid var(--ink);border-radius:2px;background:#fff;cursor:pointer;">Reintentar</button>';
+        const retryBtn = document.getElementById('retryLoadBtn');
+        if(retryBtn) retryBtn.addEventListener('click', () => {
+          els.statusText.textContent = "Reintentando…";
+          loadCorpus(true);
+        });
       });
   }
 
