@@ -383,6 +383,31 @@
       .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // quita acentos
   }
 
+  // Palabras vacías en español: se ignoran al buscar porque aparecen en casi
+  // todos los artículos y diluyen el puntaje de relevancia, tapando términos
+  // realmente distintivos de la pregunta (ej: "matricula", "traslado").
+  const STOPWORDS = new Set([
+    "a","al","algo","algunas","algunos","ante","antes","como","con","contra",
+    "cual","cuales","cualquier","cuando","de","del","desde","donde","dos",
+    "el","ella","ellas","ellos","en","entre","era","es","esa","esas","ese",
+    "eso","esos","esta","estas","este","esto","estos","fue","ha","hay","la",
+    "las","le","les","lo","los","mas","mi","mis","mucho","muy","nos",
+    "nuestro","o","para","pero","poco","por","porque","que","quien",
+    "quienes","se","segun","ser","si","sin","sobre","son","su","sus","te",
+    "tiene","tienen","todo","todos","tu","un","una","unas","uno","unos","y",
+    "ya","les","cuantos","cuantas","cuanto","cuanta","dias","tiene",
+  ]);
+
+  function tokenize(str){
+    return normalize(str).split(/[^a-z0-9ñ]+/).filter(t => t.length > 1 && !STOPWORDS.has(t));
+  }
+
+  function bigrams(tokens){
+    const out = [];
+    for(let i=0;i<tokens.length-1;i++) out.push(tokens[i] + " " + tokens[i+1]);
+    return out;
+  }
+
   function highlight(text, terms){
     if(!terms.length) return escapeHtml(text);
     let safe = escapeHtml(text);
@@ -586,13 +611,37 @@
   document.getElementById('aiCloseBtn').addEventListener('click', ()=> aiPanel.classList.remove('open'));
 
   function topRelevant(query, n){
-    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    const terms = tokenize(query);
+    if(!terms.length) return [];
+    const phrases = bigrams(terms);
+
     const scored = corpus.map(a=>{
-      const hay = normalize((a.fuente||"") + " " + (a.titulo||"") + " " + a.texto);
+      const fuenteN = normalize(a.fuente||"");
+      const tituloN = normalize(a.titulo||"");
+      const textoN = normalize(a.texto||"");
+      const hay = fuenteN + " " + tituloN + " " + textoN;
       let score = 0;
-      terms.forEach(t=>{ if(hay.includes(t)) score += 1; });
+
+      terms.forEach(t=>{
+        if(hay.includes(t)){
+          score += 1;
+          if(fuenteN.includes(t)) score += 1.5;
+          if(tituloN.includes(t)) score += 2;
+        }
+      });
+      // Las coincidencias de frase completa (dos palabras seguidas, ej.
+      // "baja matricula") son mucho más específicas que palabras sueltas,
+      // así que pesan bastante más — esto es lo que hace que artículos
+      // como "traslado por baja matrícula" superen a los que solo
+      // comparten una palabra suelta con la pregunta.
+      phrases.forEach(p=>{
+        if(hay.includes(p)) score += 4;
+        if(tituloN.includes(p)) score += 3;
+      });
+
       return {item:a, score};
     }).filter(x=>x.score>0);
+
     scored.sort((a,b)=> b.score - a.score);
     return scored.slice(0, n).map(x=>x.item);
   }
@@ -619,7 +668,7 @@
     aiSendBtn.disabled = true;
     const loadingEl = addAiMessage('assistant', 'Consultando el marco jurídico…');
 
-    const relevant = topRelevant(question, 6);
+    const relevant = topRelevant(question, 9);
     const context = relevant.map(a =>
       `[${a.fuente} — Art. ${a.articulo}]\n${a.texto}`
     ).join("\n\n---\n\n");
