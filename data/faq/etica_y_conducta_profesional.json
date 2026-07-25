@@ -1,19 +1,482 @@
 [
   {
     "tema": "Ética y Conducta Profesional",
-    "pregunta": "¿Qué es el Código de Ética del Educador?",
+    "pregunta": "¿A quiénes aplican las disposiciones del Código Uniforme de Ética (Decreto 246)?",
     "articulo_ids": [
-      178
+      130
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
   },
   {
     "tema": "Ética y Conducta Profesional",
-    "pregunta": "¿Cuáles son los deberes propios del educador según el Código de Ética?",
+    "pregunta": "¿Qué se entiende por Función Pública según el Decreto 246?",
     "articulo_ids": [
-      179,
+      131
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de probidad para el servidor público?",
+    "articulo_ids": [
+      132
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de prudencia para el servidor público?",
+    "articulo_ids": [
+      133
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de justicia para el servidor público?",
+    "articulo_ids": [
+      134
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de templanza para el servidor público?",
+    "articulo_ids": [
+      135
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué se entiende por idoneidad para el ejercicio de la función pública?",
+    "articulo_ids": [
+      136
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de responsabilidad para el servidor público?",
+    "articulo_ids": [
+      137
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de transparencia para el servidor público?",
+    "articulo_ids": [
+      138
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de igualdad para el servidor público?",
+    "articulo_ids": [
+      139
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de respeto para el servidor público?",
+    "articulo_ids": [
+      140
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de liderazgo para el servidor público?",
+    "articulo_ids": [
+      141
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe comprobar quien dispone el nombramiento de un servidor público?",
+    "articulo_ids": [
+      142
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de capacitación para el servidor público?",
+    "articulo_ids": [
+      143
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de legalidad para el servidor público?",
+    "articulo_ids": [
+      144
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de evaluación para el servidor público?",
+    "articulo_ids": [
+      145
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de discreción para el servidor público?",
+    "articulo_ids": [
+      147
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Está obligado el servidor público a presentar una declaración jurada de su situación patrimonial y financiera?",
+    "articulo_ids": [
+      148
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de obediencia para el servidor público?",
+    "articulo_ids": [
+      149
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de independencia de criterio para el servidor público?",
+    "articulo_ids": [
+      150
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de equidad para el servidor público?",
+    "articulo_ids": [
+      151
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de igualdad de trato para el servidor público?",
+    "articulo_ids": [
+      152
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el ejercicio adecuado del cargo para el servidor público?",
+    "articulo_ids": [
+      153
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cómo debe el servidor público usar los bienes del Estado?",
+    "articulo_ids": [
+      154
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cómo debe el servidor público usar el tiempo dentro de su horario de trabajo?",
+    "articulo_ids": [
+      155
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe hacer el servidor público ante situaciones extraordinarias que requieran tareas no propias de su cargo?",
+    "articulo_ids": [
+      156
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Puede el servidor público usar en beneficio propio la información que conoce por su cargo?",
+    "articulo_ids": [
+      157
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Está obligado el servidor público a denunciar actos que puedan constituir un delito o causar perjuicio al Estado?",
+    "articulo_ids": [
+      158
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de dignidad y decoro para el servidor público?",
+    "articulo_ids": [
+      159
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe hacer un servidor público al que se le impute la comisión de un delito contra la Administración Pública?",
+    "articulo_ids": [
+      160
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué grado de tolerancia debe tener el servidor público frente a las críticas del público y la prensa?",
+    "articulo_ids": [
+      161
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el principio de equilibrio para el servidor público?",
+    "articulo_ids": [
+      162
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Puede el servidor público aceptar regalos o beneficios de particulares u otros funcionarios?",
+    "articulo_ids": [
+      163
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué situaciones tiene prohibido el servidor público solicitar o aceptar dinero, dádivas o regalos?",
+    "articulo_ids": [
+      164
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cuándo se presume que un beneficio recibido por un servidor público está prohibido?",
+    "articulo_ids": [
+      165
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué reconocimientos, gastos de viaje o regalos puede aceptar un servidor público como excepción a la prohibición general de recibir beneficios?",
+    "articulo_ids": [
+      167
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Están excluidos de la prohibición los regalos de menor cuantía que se hacen por motivos de amistad?",
+    "articulo_ids": [
+      168
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿En qué consiste el conflicto de intereses para el servidor público?",
+    "articulo_ids": [
+      169
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe hacer el funcionario público cuando se presenta un conflicto de intereses?",
+    "articulo_ids": [
+      170
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Puede un servidor público nombrar en puestos públicos a su cónyuge o parientes cercanos?",
+    "articulo_ids": [
+      171
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Puede un servidor público desempeñar otro cargo remunerado además de su puesto en la Administración Pública?",
+    "articulo_ids": [
+      172
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Puede el servidor público hacer trámites o gestiones a favor de terceros ante la entidad donde trabaja?",
+    "articulo_ids": [
+      173
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué sanciones puede recibir un servidor público que viole el Código Uniforme de Ética?",
+    "articulo_ids": [
+      174
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué procedimiento se sigue cuando hay una violación al Código Uniforme de Ética?",
+    "articulo_ids": [
+      175
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cuáles son los deberes del educador panameño según el Código de Ética Profesional del Cuerpo de Educadores (Decreto 121)?",
+    "articulo_ids": [
+      178
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe hacer el educador respecto al uso de la tecnología en el proceso de enseñanza-aprendizaje?",
+    "articulo_ids": [
+      179
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué debe hacer el educador en cuanto al seguimiento y evaluación del rendimiento de los estudiantes?",
+    "articulo_ids": [
       180
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿A qué educadores les otorga el Ministerio de Educación un reconocimiento por escrito?",
+    "articulo_ids": [
+      181
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿A qué centros educativos otorga el Ministerio de Educación diplomas de honor?",
+    "articulo_ids": [
+      182
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Otorga el Ministerio de Educación estímulos a los docentes sobresalientes?",
+    "articulo_ids": [
+      183
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué requisitos se exigen para ejercer la docencia en los centros de formación de docentes?",
+    "articulo_ids": [
+      514
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Para qué se utiliza el Código de Ética Profesional de 1951 en el proceso de selección de la Orden Manuel José Hurtado?",
+    "articulo_ids": [
+      1630
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Existe un Código de Ética Profesional para los bibliotecólogos que trabajan en bibliotecas y centros de recursos educativos?",
+    "articulo_ids": [
+      1866
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cuáles son los deberes de los bibliotecólogos hacia sus colegas de profesión?",
+    "articulo_ids": [
+      1869
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué entidad conoce las faltas al Código de Ética Profesional de los Bibliotecólogos?",
+    "articulo_ids": [
+      1875
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Quién aprueba y modifica el Código de Ética del Sistema Nacional de Investigación?",
+    "articulo_ids": [
+      2495
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué es el Código de Ética del Sistema Nacional de Investigación?",
+    "articulo_ids": [
+      2500
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Es obligatoria la enseñanza de la asignatura de Ética en la educación panameña?",
+    "articulo_ids": [
+      2558
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Forma parte de los planes y programas de estudio del Ministerio de Educación la enseñanza de Ética?",
+    "articulo_ids": [
+      2559
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿A qué niveles educativos se aplica progresivamente la enseñanza de la asignatura Ética?",
+    "articulo_ids": [
+      2560
+    ],
+    "origen": "ia_asistida"
   }
 ]

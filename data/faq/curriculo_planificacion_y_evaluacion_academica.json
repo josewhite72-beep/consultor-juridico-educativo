@@ -1,19 +1,923 @@
 [
   {
     "tema": "Currículo, Planificación y Evaluación Académica",
-    "pregunta": "¿Cómo se organiza el currículo nacional?",
-    "articulo_ids": [
-      483
-    ],
-    "origen": "curada"
-  },
-  {
-    "tema": "Currículo, Planificación y Evaluación Académica",
     "pregunta": "¿Qué son los Puestos de Honor?",
     "articulo_ids": [
       1540,
       1543
     ],
     "origen": "curada"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Puede un estudiante trasladarse a un centro educativo que imparta un plan de estudio diferente al suyo?",
+    "articulo_ids": [
+      1493
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se obtiene la calificación trimestral y final de un estudiante de primaria?",
+    "articulo_ids": [
+      1500
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se calcula el promedio de un estudiante que no toma la asignatura de Religión?",
+    "articulo_ids": [
+      1501
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué es el Programa de Recuperación Académica Estudiantil (PRAE)?",
+    "articulo_ids": [
+      1508
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién establece los lineamientos para la elaboración de los módulos educativos?",
+    "articulo_ids": [
+      1519
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuál es el promedio mínimo de promoción según el Resuelto 288?",
+    "articulo_ids": [
+      1529
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué requisitos se necesitan para optar a un Puesto de Honor?",
+    "articulo_ids": [
+      1543
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Pueden los estudiantes provenientes de colegios particulares optar por Puestos de Honor?",
+    "articulo_ids": [
+      1547
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes integran la Comisión que determina el otorgamiento de los Puestos de Honor?",
+    "articulo_ids": [
+      1548
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué se considera un alumno con Necesidades Educativas Especiales (NEE)?",
+    "articulo_ids": [
+      1552
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué debe garantizar el centro educativo regular a los estudiantes con Necesidades Educativas Especiales?",
+    "articulo_ids": [
+      1556
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Se realizan adecuaciones al currículo para garantizar el acceso y permanencia de estudiantes con NEE en el subsistema regular?",
+    "articulo_ids": [
+      1561
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué se entiende por adecuación curricular?",
+    "articulo_ids": [
+      1562
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Dónde quedan registradas las adecuaciones curriculares individuales (ACI) de un estudiante?",
+    "articulo_ids": [
+      1564
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué ocurre si las adecuaciones curriculares de un estudiante se distancian significativamente del currículo regular?",
+    "articulo_ids": [
+      1565
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién es responsable del proceso de evaluación de los estudiantes con Necesidades Educativas Especiales?",
+    "articulo_ids": [
+      1566
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se definen los criterios para evaluar a los alumnos que requieren adecuaciones curriculares?",
+    "articulo_ids": [
+      1567
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Pueden los alumnos con Necesidades Educativas Especiales ser promovidos de grado y recibir su certificado de conclusión?",
+    "articulo_ids": [
+      1569
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué ocurre si un alumno con adecuaciones curriculares significativas no logra los objetivos de su programa individualizado?",
+    "articulo_ids": [
+      1571
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué opciones se ofrecen a un alumno que demuestra competencias curriculares superiores a las de su grado?",
+    "articulo_ids": [
+      1572
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién es responsable de elaborar los módulos educativos para una estudiante menor embarazada?",
+    "articulo_ids": [
+      1608
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué documentos deben acompañar la solicitud de un candidato a la Orden Manuel José Hurtado?",
+    "articulo_ids": [
+      1632
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Se aplican los planes y programas del subsistema regular a la educación de jóvenes y adultos mientras se elabora una nueva propuesta curricular?",
+    "articulo_ids": [
+      1912
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué aspectos deben garantizar los módulos y guías de autoaprendizaje según este resuelto?",
+    "articulo_ids": [
+      1914
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Pueden los participantes provenientes de otros centros educativos solicitar la convalidación de asignaturas?",
+    "articulo_ids": [
+      1920
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuál es el Plan de Estudio del Primer Nivel de Enseñanza o Educación Básica General en Panamá?",
+    "articulo_ids": [
+      1929
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se estructura el Plan de Estudio del Primer Nivel de Enseñanza?",
+    "articulo_ids": [
+      1930
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuánto dura el período de clases en primaria y premedia?",
+    "articulo_ids": [
+      1931
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién imparte la asignatura de Expresiones Artísticas en primaria y premedia?",
+    "articulo_ids": [
+      1932
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué áreas integran la asignatura de Tecnologías en la Educación Básica General?",
+    "articulo_ids": [
+      1934
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué son los Espacios Curriculares Abiertos (ECA)?",
+    "articulo_ids": [
+      1936
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién planifica la programación de los Espacios Curriculares Abiertos (ECA)?",
+    "articulo_ids": [
+      1937
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién establece las necesidades de capacitación de los docentes para el uso de los programas de estudio de la Educación Básica General?",
+    "articulo_ids": [
+      1939
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Desde cuándo se aplica el Plan de Estudios de la Educación Básica General de Jóvenes y Adultos?",
+    "articulo_ids": [
+      1942
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se estructura el plan de estudios de la Educación Básica General de Jóvenes y Adultos?",
+    "articulo_ids": [
+      1943
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿En qué áreas se organiza el plan de estudios de la Educación Básica General de Jóvenes y Adultos?",
+    "articulo_ids": [
+      1945
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuánto dura cada período de clases en la Educación de Jóvenes y Adultos?",
+    "articulo_ids": [
+      1947
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué es el Programa TECNOEDÚCAME PANAMÁ?",
+    "articulo_ids": [
+      1949
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes pueden participar en el Programa TECNOEDÚCAME PANAMÁ?",
+    "articulo_ids": [
+      1950
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué modalidades ofrece el Programa TECNOEDÚCAME PANAMÁ?",
+    "articulo_ids": [
+      1951
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuál es el plan de estudios del Bachillerato Integral del Programa TECNOEDÚCAME?",
+    "articulo_ids": [
+      1952
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuánto dura el Bachillerato Integral en la modalidad semipresencial y a distancia?",
+    "articulo_ids": [
+      1953
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿En qué principios se basa la metodología de enseñanza del Bachillerato Integral?",
+    "articulo_ids": [
+      1954
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se evalúa a los estudiantes del Bachillerato Integral?",
+    "articulo_ids": [
+      1955
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Bajo qué dirección funciona el Bachillerato Integral?",
+    "articulo_ids": [
+      1956
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Suscribe el Ministerio de Educación convenios con otros centros para el Programa TECNOEDÚCAME?",
+    "articulo_ids": [
+      1957
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Tiene el Programa TECNOEDÚCAME un horario flexible?",
+    "articulo_ids": [
+      1958
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuál es el Plan de Estudios del Programa de Telebásica de Panamá para los grados 7°, 8° y 9°?",
+    "articulo_ids": [
+      1964
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué programas se utilizan en las etapas de premedia y media para la Educación de Jóvenes y Adultos?",
+    "articulo_ids": [
+      1974
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué departamentos tiene la Dirección Nacional de Tercer Nivel de Enseñanza o Superior?",
+    "articulo_ids": [
+      2080
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién está al frente de la Dirección Nacional de Coordinación del Tercer Nivel de Enseñanza o Superior?",
+    "articulo_ids": [
+      2083
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué requisitos se necesitan para ocupar el cargo de Director o Subdirector Nacional de Coordinación del Tercer Nivel de Enseñanza?",
+    "articulo_ids": [
+      2084
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones de la Dirección Nacional de Educación Inicial?",
+    "articulo_ids": [
+      2097
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones de la Dirección Nacional de Educación Básica General respecto al currículo?",
+    "articulo_ids": [
+      2101
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones del Departamento de Soporte Técnico y Capacitación del Ministerio de Educación?",
+    "articulo_ids": [
+      2114
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién revisa y aprueba los textos escolares nacionales antes de ponerlos a disposición del público?",
+    "articulo_ids": [
+      2184
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones de la Comisión de Supervisión de Género en Obras y Materiales Didácticos?",
+    "articulo_ids": [
+      2187
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién autoriza los seminarios, cursos, talleres y diplomados de capacitación docente en el Ministerio de Educación?",
+    "articulo_ids": [
+      2282
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuándo deben las direcciones curriculares entregar sus propuestas de actualización a la Dirección Nacional de Formación y Perfeccionamiento Profesional?",
+    "articulo_ids": [
+      2288
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes integran el Comité Consultivo Nacional de Coordinación Interinstitucional del Sistema Nacional de Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2325
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes conforman el Comité Regional de Formación y Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2333
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes conforman el Centro Regional de Inteligencia, Ciencia y Tecnología?",
+    "articulo_ids": [
+      2337
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo está conformada la estructura del Sistema a Nivel Circuital, Distrital y Zonal?",
+    "articulo_ids": [
+      2339
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes integran la Unidad Circuital, Distrital y Zonal de Seguimiento, Evaluación y Asesoría para el Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2340
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes conforman el Comité Local de Currículo y Desarrollo Profesional Integral de un centro educativo?",
+    "articulo_ids": [
+      2344
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones del Comité Local de Currículo y Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2345
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿A partir de qué grado se imparte la enseñanza de Historia de Panamá, Geografía de Panamá y Cívica?",
+    "articulo_ids": [
+      2349
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién elabora los programas de estudio para la enseñanza de la Historia, Geografía y Cívica de Panamá?",
+    "articulo_ids": [
+      2352
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién revisa y valida los programas de estudio de la etapa primaria relacionados con Historia, Geografía y Cívica?",
+    "articulo_ids": [
+      2353
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién revisa el Reglamento Interno de un centro educativo?",
+    "articulo_ids": [
+      2467
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué documentación debe adjuntar una universidad para solicitar la aprobación de una nueva carrera?",
+    "articulo_ids": [
+      2484
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuáles son las funciones del Departamento de Planificación y Desarrollo Curricular al evaluar una nueva carrera pedagógica?",
+    "articulo_ids": [
+      2485
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién es responsable de elaborar, actualizar y modificar el currículo de los bachilleratos regulados por este decreto?",
+    "articulo_ids": [
+      2549
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quiénes validan y supervisan la aplicación de los planes y programas de estudio de estos bachilleratos?",
+    "articulo_ids": [
+      2550
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué enfoque se aplica en el desarrollo y evaluación curricular de estos programas de bachillerato?",
+    "articulo_ids": [
+      2551
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién planifica las jornadas de actualización y capacitación docente sobre los nuevos planes y programas de estudio?",
+    "articulo_ids": [
+      2552
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué ocurre con un docente cuya asignatura ya no está contemplada en los nuevos programas de estudio?",
+    "articulo_ids": [
+      2554
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Es obligatorio el período complementario de verano del Bachillerato Agropecuario?",
+    "articulo_ids": [
+      2556
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué parámetros considera el Ministerio de Educación para distribuir los textos escolares a los centros educativos?",
+    "articulo_ids": [
+      2638
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuánto tiempo de vigencia tienen los textos escolares aprobados por el Ministerio de Educación?",
+    "articulo_ids": [
+      2639
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién diseña la guía de requisitos técnico-pedagógicos para evaluar los textos escolares?",
+    "articulo_ids": [
+      2640
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué criterios se consideran para seleccionar a los evaluadores de textos escolares?",
+    "articulo_ids": [
+      2641
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué debe incluir la propuesta curricular específica de una carrera que se presenta al Ministerio de Educación?",
+    "articulo_ids": [
+      97
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Deben los Institutos Superiores presentar cada nueva oferta curricular al Ministerio de Educación para su aprobación?",
+    "articulo_ids": [
+      98
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué requisitos debe cumplir un educador que labora en un Instituto Superior?",
+    "articulo_ids": [
+      99
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se organiza la estructura académica de los Institutos Superiores en cuanto a créditos, duración de la hora de clase y escala de evaluación?",
+    "articulo_ids": [
+      107
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se asignan las asignaturas del Plan de Estudios en un Centro de Estudios Superiores?",
+    "articulo_ids": [
+      120
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué hace el Coordinador del Centro con los currículos de los aspirantes a impartir una asignatura?",
+    "articulo_ids": [
+      121
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cuál es la estructura organizativa de las Direcciones Regionales de Educación?",
+    "articulo_ids": [
+      226
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿La escuela primaria panameña se divide en escuelas urbanas y rurales?",
+    "articulo_ids": [
+      255
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué certificado reciben los estudiantes que terminan el primer nivel de enseñanza?",
+    "articulo_ids": [
+      259
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Organiza el Ministerio de Educación prácticas profesionales para que los estudiantes adquieran habilidades laborales?",
+    "articulo_ids": [
+      263
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué reciben los estudiantes que terminan satisfactoriamente el bachillerato del segundo nivel de enseñanza?",
+    "articulo_ids": [
+      272
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué reciben los estudiantes que terminan satisfactoriamente una carrera técnica intermedia?",
+    "articulo_ids": [
+      273
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué certificado reciben las personas que aprueban el plan de estudio de alfabetización, primaria y premedia en la modalidad de jóvenes y adultos?",
+    "articulo_ids": [
+      291
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Para qué promueve el Ministerio de Educación la integración de contenidos museológicos en las áreas curriculares?",
+    "articulo_ids": [
+      325
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué es el Proyecto Educativo de Centro (PEC)?",
+    "articulo_ids": [
+      480
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué es el currículo según la Ley Orgánica de Educación?",
+    "articulo_ids": [
+      481
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué criterios debe cumplir la organización del currículo según la Ley Orgánica de Educación?",
+    "articulo_ids": [
+      483
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Hacia qué se orienta el currículo del primer nivel de enseñanza o educación básica general?",
+    "articulo_ids": [
+      488
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se estructura el currículo del segundo nivel de enseñanza o educación media?",
+    "articulo_ids": [
+      489
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Deben las innovaciones curriculares y metodológicas experimentarse en centros educativos pilotos antes de aplicarse en general?",
+    "articulo_ids": [
+      490
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Quién planifica la aplicación del currículo en las comunidades indígenas?",
+    "articulo_ids": [
+      494
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué debe establecer el Ministerio de Educación para vincular las actividades co-curriculares con los contenidos programáticos?",
+    "articulo_ids": [
+      499
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué incluye la orientación educativa como servicio de apoyo al proceso de aprendizaje?",
+    "articulo_ids": [
+      527
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué debe considerar el sistema de evaluación del aprendizaje y de promoción para evitar la deserción escolar?",
+    "articulo_ids": [
+      530
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿En qué se basa el sistema de evaluación de los aprendizajes en la educación preescolar?",
+    "articulo_ids": [
+      531
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Es el servicio social un requisito para obtener el título en los centros educativos oficiales y particulares?",
+    "articulo_ids": [
+      532
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Existe un sistema de evaluación de los aprendizajes específico para la educación de jóvenes y adultos?",
+    "articulo_ids": [
+      533
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué direcciones nacionales coordina el Viceministerio Académico de Educación?",
+    "articulo_ids": [
+      552
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué puntuación otorgan los certificados de actualización profesional del educador según este decreto?",
+    "articulo_ids": [
+      773
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué responsabilidad tienen los Inspectores Provinciales de Educación respecto a la interpretación y aplicación del Plan de Estudios y los Programas?",
+    "articulo_ids": [
+      936
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Se incluye la educación contra las drogas como contenido curricular obligatorio en las escuelas?",
+    "articulo_ids": [
+      1209
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Recibe una compensación adicional el educador que imparte una cátedra Vocacional Industrial o Vocacional Agropecuaria?",
+    "articulo_ids": [
+      1238
+    ],
+    "origen": "ia_asistida"
   }
 ]
