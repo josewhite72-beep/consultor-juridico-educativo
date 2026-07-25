@@ -1,0 +1,35 @@
+[
+  {
+    "tema": "Traslados, Concursos y Ascensos",
+    "pregunta": "¿Cómo solicito un traslado por mutuo consentimiento?",
+    "articulo_ids": [
+      735
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Traslados, Concursos y Ascensos",
+    "pregunta": "¿Qué es el traslado por puntuación o concurso?",
+    "articulo_ids": [
+      732
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Traslados, Concursos y Ascensos",
+    "pregunta": "¿Cuántas veces puedo ser trasladado en un año escolar?",
+    "articulo_ids": [
+      751
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Traslados, Concursos y Ascensos",
+    "pregunta": "¿Qué es una permuta entre docentes?",
+    "articulo_ids": [
+      735
+    ],
+    "nota": "No se encontró un mecanismo separado llamado \"permuta\"; lo más cercano es el traslado por mutuo consentimiento.",
+    "origen": "curada"
+  }
+]

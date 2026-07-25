@@ -1,0 +1,27 @@
+[
+  {
+    "tema": "Régimen y Disciplina Estudiantil",
+    "pregunta": "¿Cómo se regula la matrícula de estudiantes?",
+    "articulo_ids": [
+      1488,
+      2250
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Régimen y Disciplina Estudiantil",
+    "pregunta": "¿Qué es el Servicio Social Estudiantil?",
+    "articulo_ids": [
+      1691
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Régimen y Disciplina Estudiantil",
+    "pregunta": "¿Es obligatorio el uniforme escolar?",
+    "articulo_ids": [
+      1516
+    ],
+    "origen": "curada"
+  }
+]

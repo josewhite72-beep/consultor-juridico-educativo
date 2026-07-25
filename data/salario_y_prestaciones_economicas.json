@@ -1,0 +1,44 @@
+[
+  {
+    "tema": "Salario y Prestaciones Económicas",
+    "pregunta": "¿Cómo se clasifican los grados salariales de los educadores?",
+    "articulo_ids": [
+      1221
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Salario y Prestaciones Económicas",
+    "pregunta": "¿Qué es el FECE?",
+    "articulo_ids": [
+      1093,
+      1095
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Salario y Prestaciones Económicas",
+    "pregunta": "¿Cuándo procede el pago de sobresueldo por antigüedad?",
+    "articulo_ids": [
+      1228
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Salario y Prestaciones Económicas",
+    "pregunta": "¿Qué hago si no me pagan el sobresueldo a tiempo?",
+    "articulo_ids": [
+      1237
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Salario y Prestaciones Económicas",
+    "pregunta": "¿Qué prestaciones recibo al jubilarme?",
+    "articulo_ids": [
+      1354
+    ],
+    "nota": "Cobertura parcial: este corpus (marco jurídico educativo) no incluye la ley general de pensiones de la Caja de Seguro Social.",
+    "origen": "curada"
+  }
+]

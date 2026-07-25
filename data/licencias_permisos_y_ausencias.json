@@ -1,0 +1,44 @@
+[
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuántos días de vacaciones tiene un docente?",
+    "articulo_ids": [
+      394
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cómo solicito una licencia sin sueldo?",
+    "articulo_ids": [
+      1020
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuánto dura la licencia por maternidad?",
+    "articulo_ids": [
+      401
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué pasa si me incapacito por enfermedad?",
+    "articulo_ids": [
+      399
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Existen licencias para estudios, con o sin sueldo?",
+    "articulo_ids": [
+      1020,
+      1021,
+      1324
+    ],
+    "origen": "curada"
+  }
+]

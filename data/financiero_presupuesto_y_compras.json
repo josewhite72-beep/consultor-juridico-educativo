@@ -1,0 +1,19 @@
+[
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué es el subsidio estatal a centros educativos particulares?",
+    "articulo_ids": [
+      615
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo funcionan las compras del Ministerio de Educación?",
+    "articulo_ids": [
+      1185
+    ],
+    "nota": "Cobertura parcial: solo hay detalles de delegación de firma; la Ley general de Contrataciones Públicas no está en este corpus.",
+    "origen": "curada"
+  }
+]

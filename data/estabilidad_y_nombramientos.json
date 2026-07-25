@@ -1,0 +1,44 @@
+[
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuál es la diferencia entre nombramiento interino, temporal y permanente?",
+    "articulo_ids": [
+      691,
+      692,
+      693
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede la destitución de un docente?",
+    "articulo_ids": [
+      569
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos necesito para un nombramiento como maestro?",
+    "articulo_ids": [
+      657
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué implica estar en período probatorio?",
+    "articulo_ids": [
+      690
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puedo perder mi plaza por abandono del cargo?",
+    "articulo_ids": [
+      390
+    ],
+    "origen": "curada"
+  }
+]

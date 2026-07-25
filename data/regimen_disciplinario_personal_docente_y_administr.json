@@ -1,0 +1,34 @@
+[
+  {
+    "tema": "Régimen Disciplinario (Personal Docente y Administrativo)",
+    "pregunta": "¿Qué sanciones existen para faltas del personal docente?",
+    "articulo_ids": [
+      569
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Régimen Disciplinario (Personal Docente y Administrativo)",
+    "pregunta": "¿Qué es una falta grave del servidor público?",
+    "articulo_ids": [
+      174
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Régimen Disciplinario (Personal Docente y Administrativo)",
+    "pregunta": "¿Tengo derecho a impugnar una sanción?",
+    "articulo_ids": [
+      1065
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Régimen Disciplinario (Personal Docente y Administrativo)",
+    "pregunta": "¿Puedo apelar una sanción disciplinaria?",
+    "articulo_ids": [
+      786
+    ],
+    "origen": "curada"
+  }
+]

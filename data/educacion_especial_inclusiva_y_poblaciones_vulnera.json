@@ -1,0 +1,27 @@
+[
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué derechos tiene una adolescente embarazada en el sistema educativo?",
+    "articulo_ids": [
+      1590
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Cómo se regula la educación especial?",
+    "articulo_ids": [
+      1551
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué es la educación intercultural bilingüe?",
+    "articulo_ids": [
+      2659,
+      2660
+    ],
+    "origen": "curada"
+  }
+]

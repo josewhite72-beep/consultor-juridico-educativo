@@ -1,0 +1,19 @@
+[
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Qué es el Código de Ética del Educador?",
+    "articulo_ids": [
+      178
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Ética y Conducta Profesional",
+    "pregunta": "¿Cuáles son los deberes propios del educador según el Código de Ética?",
+    "articulo_ids": [
+      179,
+      180
+    ],
+    "origen": "curada"
+  }
+]

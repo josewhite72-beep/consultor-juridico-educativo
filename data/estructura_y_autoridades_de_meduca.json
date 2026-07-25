@@ -1,0 +1,26 @@
+[
+  {
+    "tema": "Estructura y Autoridades de MEDUCA",
+    "pregunta": "¿Cuál es el rol de los Directores Regionales de Educación?",
+    "articulo_ids": [
+      239
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estructura y Autoridades de MEDUCA",
+    "pregunta": "¿Qué es un circuito escolar?",
+    "articulo_ids": [
+      1071
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Estructura y Autoridades de MEDUCA",
+    "pregunta": "¿Qué es la Comisión Coordinadora de Educación Nacional?",
+    "articulo_ids": [
+      559
+    ],
+    "origen": "curada"
+  }
+]

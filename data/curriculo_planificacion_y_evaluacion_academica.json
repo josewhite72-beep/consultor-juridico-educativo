@@ -1,0 +1,19 @@
+[
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Cómo se organiza el currículo nacional?",
+    "articulo_ids": [
+      483
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Currículo, Planificación y Evaluación Académica",
+    "pregunta": "¿Qué son los Puestos de Honor?",
+    "articulo_ids": [
+      1540,
+      1543
+    ],
+    "origen": "curada"
+  }
+]
