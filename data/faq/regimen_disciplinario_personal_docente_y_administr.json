@@ -30,5 +30,13 @@
       786
     ],
     "origen": "curada"
+  },
+  {
+    "tema": "Régimen Disciplinario (Personal Docente y Administrativo)",
+    "pregunta": "¿Puede la autoridad nominadora separar provisionalmente a un servidor público mientras dura una investigación disciplinaria?",
+    "articulo_ids": [
+      1064
+    ],
+    "origen": "ia_asistida"
   }
 ]

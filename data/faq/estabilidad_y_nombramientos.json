@@ -40,5 +40,1669 @@
       390
     ],
     "origen": "curada"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se rigen los servidores públicos por el sistema de méritos para su nombramiento y estabilidad en el cargo?",
+    "articulo_ids": [
+      20
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se determinan por Ley los principios para los nombramientos, ascensos, traslados y destituciones de los servidores públicos?",
+    "articulo_ids": [
+      22
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué servidores públicos no forman parte de las carreras públicas según la Constitución?",
+    "articulo_ids": [
+      27
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién realiza el concurso nacional para seleccionar y nombrar a los Directores y Subdirectores Regionales de Educación?",
+    "articulo_ids": [
+      230
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Tienen derecho a nombramiento interino los directivos y facilitadores que prestaron servicios ad honórem durante dos años en un centro por autogestión?",
+    "articulo_ids": [
+      295
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién decreta los nombramientos y promociones del personal docente y administrativo, y quién los traslados?",
+    "articulo_ids": [
+      361
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién puede aplicar la pena de destitución a un miembro del personal docente?",
+    "articulo_ids": [
+      383
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Tienen derecho a los 30 días de descanso obligatorio con sueldo los educadores nombrados en condición de interinidad?",
+    "articulo_ids": [
+      394
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué se basan los nombramientos y promociones del personal docente y administrativo de las escuelas primarias?",
+    "articulo_ids": [
+      404
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué función cumple la Comisión Regional de Selección de Personal Docente en los procesos de traslado y nombramiento?",
+    "articulo_ids": [
+      406
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Por qué motivos se pierde el derecho a estar inscrito en el Escalafón docente?",
+    "articulo_ids": [
+      407
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué categoría del Escalafón debe estar inscrito un educador para ser nombrado Director de una escuela de cuatro a siete maestros?",
+    "articulo_ids": [
+      410
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién nombra a los empleados permanentes de la Imprenta Nacional?",
+    "articulo_ids": [
+      470
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se seleccionan y nombran los supervisores de educación?",
+    "articulo_ids": [
+      536
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Con qué sanciones se castigan las faltas del personal docente y administrativo del Ramo de Educación?",
+    "articulo_ids": [
+      569
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuáles son las causales de destitución para los miembros del Ramo de Educación?",
+    "articulo_ids": [
+      573
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién tiene la atribución de imponer sanciones disciplinarias al personal docente?",
+    "articulo_ids": [
+      575
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos debe cumplir el representante de las Asociaciones Docentes ante la Comunidad Educativa Regional?",
+    "articulo_ids": [
+      603
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué época del año puede una persona solicitar su inscripción en el Registro Permanente de Elegibles?",
+    "articulo_ids": [
+      631
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes pueden participar en los concursos de nombramiento y traslado que realiza el Ministerio de Educación?",
+    "articulo_ids": [
+      634
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué documentos se consideran para establecer la puntuación de los educadores en los procesos de traslado y nombramiento?",
+    "articulo_ids": [
+      644
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué es el Código de Elegible y cómo se obtiene?",
+    "articulo_ids": [
+      645
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué establece el Decreto Ejecutivo 203 respecto al nombramiento y traslado del personal docente?",
+    "articulo_ids": [
+      653
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se reconocen los años de interinidad trabajados a partir de 1995 como años de docencia para efectos de sobresueldo?",
+    "articulo_ids": [
+      654
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un aspirante a un concurso docente no entrega la documentación completa exigida?",
+    "articulo_ids": [
+      655
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué título se requiere para aspirar al cargo de maestro de asignatura especial en Educación Básica General?",
+    "articulo_ids": [
+      656
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos mínimos debe reunir un aspirante al cargo de maestro de educación preescolar?",
+    "articulo_ids": [
+      657
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se distribuyen las vacantes de maestro de grado en la etapa primaria durante el período transitorio de tres años?",
+    "articulo_ids": [
+      658
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué título mínimo se requiere para aspirar al cargo de profesor de Educación Básica General o Media?",
+    "articulo_ids": [
+      659
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Profesor de Educación Vocacional?",
+    "articulo_ids": [
+      660
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de profesor de orientación en premedia y media?",
+    "articulo_ids": [
+      661
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos mínimos se necesitan para aspirar al cargo de profesor de formación a nivel superior?",
+    "articulo_ids": [
+      662
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se convoca un concurso de nombramiento y traslado docente?",
+    "articulo_ids": [
+      663
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se convocan las vacantes de cargos directivos y de supervisión del Ministerio de Educación?",
+    "articulo_ids": [
+      664
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién integra la Comisión Evaluadora para el concurso de cargos directivos nacionales?",
+    "articulo_ids": [
+      665
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un concursante no firma su solicitud de nombramiento?",
+    "articulo_ids": [
+      667
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué aspectos se toman en cuenta para decidir un empate entre aspirantes a traslado o nombramiento con igual puntuación?",
+    "articulo_ids": [
+      669
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un aspirante ocupa la primera posición en tres ternas de un mismo concurso en la misma Región Escolar?",
+    "articulo_ids": [
+      670
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué casos el Ministerio de Educación declara desierta una vacante sometida a concurso?",
+    "articulo_ids": [
+      671
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Pueden los aspirantes jubilados o pensionados participar en un concurso docente?",
+    "articulo_ids": [
+      672
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar u obtener nombramiento como maestro o profesor en el Ministerio de Educación?",
+    "articulo_ids": [
+      673
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Pueden aspirar a un cargo docente los educadores que fueron destituidos por faltas graves contra la moral o por delitos relacionados con la libertad sexual?",
+    "articulo_ids": [
+      674
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién elabora la organización escolar probable del año siguiente en un centro educativo?",
+    "articulo_ids": [
+      675
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si la Dirección Regional de Educación considera que la organización escolar no se ajusta a las necesidades del centro?",
+    "articulo_ids": [
+      676
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué Direcciones Nacionales revisan las organizaciones escolares y reportan las vacantes para traslado o nombramiento?",
+    "articulo_ids": [
+      677
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué procedimiento se sigue para aprobar las vacantes que surgen durante el transcurso del año escolar?",
+    "articulo_ids": [
+      678
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo suple el Ministerio de Educación las vacantes que surgen en los centros educativos durante el año escolar?",
+    "articulo_ids": [
+      679
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo presenta un educador su candidatura para una vacante que surge durante el año escolar?",
+    "articulo_ids": [
+      680
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién evalúa los méritos de los aspirantes a las vacantes que surgen durante el año escolar?",
+    "articulo_ids": [
+      681
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué hace la Comisión Regional de Selección de Personal Docente con el resultado de la evaluación de los aspirantes?",
+    "articulo_ids": [
+      682
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué hace la Dirección Nacional de Recursos Humanos con la terna certificada por la Comisión Regional de Selección de Personal Docente?",
+    "articulo_ids": [
+      683
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si la Comisión Regional de Selección de Personal Docente no certifica la terna dentro del plazo establecido?",
+    "articulo_ids": [
+      684
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién selecciona finalmente al educador que ocupará una vacante, a partir de la terna enviada por la Dirección Nacional de Recursos Humanos?",
+    "articulo_ids": [
+      685
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si los educadores que integran la terna no están disponibles para ocupar la vacante?",
+    "articulo_ids": [
+      686
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un educador seleccionado o nombrado en un cargo no se presenta a tomar posesión?",
+    "articulo_ids": [
+      687
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué certificados de salud debe entregar un educador para tomar posesión de su cargo?",
+    "articulo_ids": [
+      688
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Por cuánto tiempo es nombrado en período probatorio un educador que ingresa por primera vez al Ministerio de Educación?",
+    "articulo_ids": [
+      689
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué se considera un año de servicio para efectos del período probatorio de un docente?",
+    "articulo_ids": [
+      690
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué casos procede un nombramiento con carácter temporal hasta finalizar el año escolar?",
+    "articulo_ids": [
+      692
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Hasta cuándo pueden efectuarse los nombramientos probatorios o permanentes de las vacantes que salieron a concurso?",
+    "articulo_ids": [
+      693
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuántas posiciones puede incluir un educador en su solicitud de nombramiento o de traslado?",
+    "articulo_ids": [
+      694
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos generales debe reunir un educador para aspirar a los cargos de Supervisor, Director o Subdirector de centros educativos?",
+    "articulo_ids": [
+      695
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué documentación debe entregar el aspirante a un concurso de Supervisor, Director o Subdirector de centros educativos?",
+    "articulo_ids": [
+      696
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué porcentaje de la puntuación final representa la evaluación de los títulos y créditos del aspirante a un cargo directivo?",
+    "articulo_ids": [
+      697
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se evalúa a los diez concursantes con mayor puntuación en un concurso para cargo directivo?",
+    "articulo_ids": [
+      698
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de Escuela Primaria de categoría especial?",
+    "articulo_ids": [
+      699
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de Escuela Primaria de primera categoría?",
+    "articulo_ids": [
+      700
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de Escuela Primaria de segunda categoría?",
+    "articulo_ids": [
+      701
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de Escuela Primaria de tercera categoría?",
+    "articulo_ids": [
+      702
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de Escuela Primaria de cuarta categoría?",
+    "articulo_ids": [
+      703
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector de una escuela primaria?",
+    "articulo_ids": [
+      704
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director o Subdirector Técnico Docente de un Centro de Educación Básica General completo?",
+    "articulo_ids": [
+      705
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector Administrativo de un Centro de Educación Básica General completo?",
+    "articulo_ids": [
+      706
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director o Subdirector Técnico Docente de la etapa Premedia?",
+    "articulo_ids": [
+      707
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector Administrativo de la etapa Premedia?",
+    "articulo_ids": [
+      708
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director o Subdirector Técnico Docente de un Centro de Educación Media Académica?",
+    "articulo_ids": [
+      709
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector Administrativo de un Centro de Educación Media Académica?",
+    "articulo_ids": [
+      710
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director de un Centro de Educación Media Profesional y Técnica?",
+    "articulo_ids": [
+      711
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector Técnico Docente de un Centro de Educación Media Profesional y Técnica?",
+    "articulo_ids": [
+      712
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Subdirector Administrativo de un Centro de Educación Media Profesional y Técnica?",
+    "articulo_ids": [
+      713
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se consideran a falta de aspirantes con el título específico exigido para un cargo directivo de educación media?",
+    "articulo_ids": [
+      714
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se indican en la publicación de vacantes las subdirecciones administrativas y las técnico docentes?",
+    "articulo_ids": [
+      715
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si se selecciona para un cargo de Director o Subdirector a un educador sin título en Administración Escolar?",
+    "articulo_ids": [
+      716
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Director o Subdirector de un Centro de Educación Normal Superior?",
+    "articulo_ids": [
+      717
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Regional de Educación Básica General?",
+    "articulo_ids": [
+      718
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Regional de Educación Media?",
+    "articulo_ids": [
+      719
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Regional de Educación de Jóvenes y Adultos?",
+    "articulo_ids": [
+      720
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Nacional de Educación Inicial?",
+    "articulo_ids": [
+      721
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Nacional de Educación Básica General en las etapas Primaria y Premedia?",
+    "articulo_ids": [
+      722
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Nacional de Educación Media Académica, Profesional y Técnica o Postmedia?",
+    "articulo_ids": [
+      723
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos se necesitan para aspirar al cargo de Supervisor Nacional de Educación de Jóvenes y Adultos?",
+    "articulo_ids": [
+      724
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos mínimos se necesitan para ocupar el cargo de Director Nacional de Educación Básica General?",
+    "articulo_ids": [
+      725
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Por qué causas pueden efectuarse traslados de maestros y profesores en el Ramo de Educación?",
+    "articulo_ids": [
+      726
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se pueden realizar movimientos internos de maestros y profesores por causas no contempladas en el Decreto 203?",
+    "articulo_ids": [
+      727
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos deben cumplir los maestros y profesores para solicitar traslado por concurso o por mutuo consentimiento?",
+    "articulo_ids": [
+      728
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se realizan los concursos de traslado de docentes por puntuación y por años de servicio en áreas de difícil acceso?",
+    "articulo_ids": [
+      729
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se elabora la lista de docentes para el traslado por años de servicio en áreas de difícil acceso?",
+    "articulo_ids": [
+      730
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué aspectos se toman en cuenta para decidir un empate entre aspirantes a traslado con igual puntuación?",
+    "articulo_ids": [
+      731
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un docente renunciar a un traslado una vez que fue seleccionado en la vacante a la que aspiró?",
+    "articulo_ids": [
+      732
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo se hacen efectivos los traslados de docentes por concurso?",
+    "articulo_ids": [
+      733
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se realiza el traslado de un docente por baja matrícula?",
+    "articulo_ids": [
+      734
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se tramita un traslado por mutuo consentimiento entre dos docentes?",
+    "articulo_ids": [
+      735
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo se llevan a cabo los traslados por mutuo consentimiento?",
+    "articulo_ids": [
+      736
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos especiales deben cumplir los docentes que desean trasladarse por mutuo consentimiento?",
+    "articulo_ids": [
+      737
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Hasta cuándo se puede desistir de un traslado por mutuo consentimiento?",
+    "articulo_ids": [
+      738
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si se comprueba que un traslado por mutuo consentimiento se realizó con engaño?",
+    "articulo_ids": [
+      739
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo se puede efectuar el traslado de un docente por sanción?",
+    "articulo_ids": [
+      740
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un docente trasladado por sanción volver a laborar en el centro educativo donde cometió la falta?",
+    "articulo_ids": [
+      741
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa con los docentes interinos, temporales o en período probatorio que incurren en una causal de traslado por sanción?",
+    "articulo_ids": [
+      742
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién determina el centro educativo al que debe ser trasladado un docente sancionado?",
+    "articulo_ids": [
+      743
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos debe cumplir un docente para solicitar traslado por enfermedad?",
+    "articulo_ids": [
+      744
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué procedimiento se sigue para decidir una solicitud de traslado por enfermedad?",
+    "articulo_ids": [
+      745
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado de un docente por seguridad?",
+    "articulo_ids": [
+      746
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué investigación se realiza ante una solicitud de traslado por seguridad?",
+    "articulo_ids": [
+      747
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién decide finalmente si se ordena un traslado por enfermedad o por seguridad?",
+    "articulo_ids": [
+      748
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si hay indicios de que el docente que solicitó traslado por seguridad es responsable de los hechos que lo motivaron?",
+    "articulo_ids": [
+      749
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién asigna las vacantes para los traslados por enfermedad y por seguridad?",
+    "articulo_ids": [
+      750
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un maestro o profesor ser trasladado más de una vez durante el mismo año escolar?",
+    "articulo_ids": [
+      751
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado de un docente por necesidad del servicio?",
+    "articulo_ids": [
+      752
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué orden de preferencia se sigue para efectuar un traslado por necesidad del servicio?",
+    "articulo_ids": [
+      753
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué procedimiento sigue el Ministerio de Educación para efectuar un traslado por necesidad del servicio?",
+    "articulo_ids": [
+      754
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se notifica a un docente que fue trasladado?",
+    "articulo_ids": [
+      755
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se llena una vacante que surge por renuncia, insubsistencia, jubilación o fallecimiento durante el año escolar?",
+    "articulo_ids": [
+      756
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué tipos de traslados excepcionales existen para los Directores y Subdirectores de escuelas y colegios?",
+    "articulo_ids": [
+      757
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado de un Director o Subdirector por baja matrícula?",
+    "articulo_ids": [
+      758
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué es el horario puente y cómo se asigna a los docentes?",
+    "articulo_ids": [
+      759
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado por mutuo consentimiento para el personal directivo?",
+    "articulo_ids": [
+      760
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si se comprueba que el traslado por mutuo consentimiento de un directivo se hizo con engaño?",
+    "articulo_ids": [
+      761
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado de un directivo por sanción?",
+    "articulo_ids": [
+      762
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo se efectúa el traslado del personal directivo de los planteles de enseñanza?",
+    "articulo_ids": [
+      763
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa cuando se presentan quejas contra un Director de un centro educativo?",
+    "articulo_ids": [
+      764
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué casos procede excepcionalmente el traslado de los Supervisores Regionales de Educación?",
+    "articulo_ids": [
+      765
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué procedimiento se sigue para el traslado por mutuo consentimiento de los Supervisores Regionales?",
+    "articulo_ids": [
+      766
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuándo procede el traslado de un Supervisor Regional por sanción?",
+    "articulo_ids": [
+      767
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué aspectos se consideran para determinar los cargos vacantes del personal docente?",
+    "articulo_ids": [
+      768
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuántas horas de clase a la semana dicta un Profesor Regular?",
+    "articulo_ids": [
+      769
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se realiza el proceso de evaluación por sistema de puntos en los concursos de dirección y supervisión?",
+    "articulo_ids": [
+      770
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuántos puntos otorga un título de Doctorado en la especialidad en los concursos de nombramiento?",
+    "articulo_ids": [
+      771
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se puntúan los créditos académicos de un profesor vocacional que no tiene título universitario en su especialidad?",
+    "articulo_ids": [
+      772
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se puntúa la experiencia profesional del educador en los concursos de nombramiento?",
+    "articulo_ids": [
+      774
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se reconoce el tiempo laborado en centros de educación preescolar no dependientes del Ministerio de Educación para efectos de puntuación?",
+    "articulo_ids": [
+      775
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se evalúan las obras didácticas y los servicios valiosos a la educación en los concursos de nombramiento?",
+    "articulo_ids": [
+      776
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué competencias y habilidades se evalúan en la entrevista para los cargos de Supervisor, Director o Subdirector?",
+    "articulo_ids": [
+      777
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué competencias adicionales se evalúan en la entrevista para los cargos de Dirección y Subdirección de Premedia y Media?",
+    "articulo_ids": [
+      778
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes integran el Jurado Evaluador de los concursos para cargos directivos?",
+    "articulo_ids": [
+      779
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un concursante no asiste a la entrevista en la fecha y hora asignada?",
+    "articulo_ids": [
+      780
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Admite algún recurso el resultado de la evaluación del Jurado Evaluador?",
+    "articulo_ids": [
+      781
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué hace el Jurado Evaluador con el informe y las actas de la evaluación de los concursantes?",
+    "articulo_ids": [
+      782
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un educador presentar reclamos o recursos contra las decisiones de un concurso de traslado o nombramiento?",
+    "articulo_ids": [
+      783
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos debe contener el escrito de un recurso contra una decisión de un concurso docente?",
+    "articulo_ids": [
+      784
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué plazo deben decidirse los recursos de reconsideración y apelación en los concursos docentes?",
+    "articulo_ids": [
+      786
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué cargos son incompatibles con ser profesor, asesor, director o dueño de un colegio particular?",
+    "articulo_ids": [
+      788
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un funcionario del Ministerio de Educación ocupar otra posición dentro del Ramo de Educación?",
+    "articulo_ids": [
+      789
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se clasifican por categoría los planteles de enseñanza oficiales?",
+    "articulo_ids": [
+      790
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Ascienden los directivos de un plantel cuando este se eleva de categoría?",
+    "articulo_ids": [
+      791
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuántos Subdirectores le corresponden a un plantel educativo según su categoría?",
+    "articulo_ids": [
+      792
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se reconoce para efectos de docencia el período laborado en la Comisión Coordinadora de Educación Nacional o en las Juntas y Direcciones Regionales?",
+    "articulo_ids": [
+      793
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Reglamenta el Ministerio de Educación los cursos y seminarios de capacitación y perfeccionamiento docente?",
+    "articulo_ids": [
+      794
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Existe un proceso de digitalización de los documentos académicos de los aspirantes a concursos de traslado y nombramiento?",
+    "articulo_ids": [
+      797
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Tienen prelación los docentes que concursan para centros educativos ubicados en comarcas indígenas?",
+    "articulo_ids": [
+      808
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se realiza en condición permanente el nombramiento de docentes en áreas de difícil acceso?",
+    "articulo_ids": [
+      810
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién determina qué centros educativos están ubicados en áreas de difícil acceso?",
+    "articulo_ids": [
+      811
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuántas vacantes puede incluir un educador en su formulario de solicitud de nombramiento?",
+    "articulo_ids": [
+      815
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se reconoce el período laborado en condición interina o temporal en áreas de difícil acceso para efectos de nombramiento permanente?",
+    "articulo_ids": [
+      818
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué se considera un año de servicio para efectos del reconocimiento de tiempo laborado en condición interina o temporal?",
+    "articulo_ids": [
+      820
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Debe la Comisión Regional de Selección de Personal Docente elaborar su propio Reglamento Interno?",
+    "articulo_ids": [
+      833
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué faltas pueden causar la suspensión del cargo y del salario de un miembro de la Comisión Regional de Selección de Personal Docente?",
+    "articulo_ids": [
+      842
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se acreditan las competencias del perfil de un aspirante en un concurso de nombramiento?",
+    "articulo_ids": [
+      877
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Tienen los nombramientos realizados bajo este procedimiento de asignación de funciones directivas condición de interinidad?",
+    "articulo_ids": [
+      888
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué hace el Ministerio de Educación una vez seleccionados los aspirantes a un cargo sometido a concurso?",
+    "articulo_ids": [
+      900
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué establece el Decreto Ejecutivo 261 respecto a la selección de Directores y Subdirectores Regionales de Educación?",
+    "articulo_ids": [
+      902
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué requisitos debe cumplir un aspirante a Director o Subdirector Regional de Educación?",
+    "articulo_ids": [
+      903
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se convoca el concurso para Director o Subdirector Regional de Educación?",
+    "articulo_ids": [
+      904
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué documentación debe entregar un aspirante a Director o Subdirector Regional de Educación?",
+    "articulo_ids": [
+      905
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué porcentaje de la puntuación final representa la evaluación de títulos y créditos de un aspirante a Director o Subdirector Regional?",
+    "articulo_ids": [
+      906
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se da a conocer el resultado de la evaluación de títulos y créditos de los aspirantes a Director o Subdirector Regional?",
+    "articulo_ids": [
+      907
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién evalúa mediante entrevista y prueba escrita a los aspirantes a Director o Subdirector Regional de Educación?",
+    "articulo_ids": [
+      908
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué competencias debe evaluar el Jurado Nacional Calificador en los aspirantes a Director o Subdirector Regional?",
+    "articulo_ids": [
+      909
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué hace el Jurado Nacional Calificador con el resultado de la evaluación de los aspirantes?",
+    "articulo_ids": [
+      911
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se da a conocer la lista de elegibles para Director o Subdirector Regional de Educación?",
+    "articulo_ids": [
+      912
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién realiza la selección final del Director o Subdirector Regional de Educación a partir de las ternas?",
+    "articulo_ids": [
+      913
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede un aspirante interponer recurso de reconsideración contra la selección del Ministro para Director o Subdirector Regional?",
+    "articulo_ids": [
+      914
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quién queda sujeto al cumplimiento del Reglamento Interno del Ministerio de Educación?",
+    "articulo_ids": [
+      963
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Deben los Jefes inmediatos solicitar con anticipación su requerimiento de personal a la Oficina de Recursos Humanos?",
+    "articulo_ids": [
+      992
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se reconoce a los docentes que iniciaron labores entre enero y mayo de 1972 el derecho a acogerse a la jubilación especial?",
+    "articulo_ids": [
+      1350
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se escogen los Profesores Coordinadores de Asignaturas y por cuánto tiempo?",
+    "articulo_ids": [
+      1613
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué pasa si un miembro principal del Patronato deja de pertenecer a la entidad que representa?",
+    "articulo_ids": [
+      1725
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se nombra al Director Ejecutivo del Patronato y por cuánto tiempo?",
+    "articulo_ids": [
+      1751
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes integran el Consejo de Administración del SIACAP según la Ley 8?",
+    "articulo_ids": [
+      1779
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes integran el Consejo de Administración del SIACAP según la Ley 54?",
+    "articulo_ids": [
+      1833
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Debe comunicarse y publicarse en la prensa nacional una vacante de puesto administrativo o docente?",
+    "articulo_ids": [
+      2025
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Debe especificarse si una vacante es interina o permanente al darla a conocer?",
+    "articulo_ids": [
+      2026
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Deben los aspirantes a un cargo indicar específicamente la posición que solicitan?",
+    "articulo_ids": [
+      2028
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se toman en cuenta solicitudes generales o solo las específicas para cada vacante?",
+    "articulo_ids": [
+      2029
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿En qué mes se realizan los concursos para llenar las vacantes permanentes de maestros o profesores?",
+    "articulo_ids": [
+      2030
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se llenan las vacantes permanentes del personal docente que se producen durante el período lectivo?",
+    "articulo_ids": [
+      2031
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué clases de nombramientos existen en el Ministerio de Educación?",
+    "articulo_ids": [
+      2032
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Puede pedirse la reconsideración de un nombramiento, ascenso o traslado hecho en contravención de las normas de selección?",
+    "articulo_ids": [
+      2041
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Qué faltas acarrean la pérdida del puesto y la inhabilitación para ocupar cargos en el Ministerio de Educación?",
+    "articulo_ids": [
+      2060
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se estructura a nivel nacional el Sistema Nacional de Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2324
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes integran el Comité Consultivo Nacional de Coordinación Interinstitucional?",
+    "articulo_ids": [
+      2325
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuáles son las funciones del Comité Consultivo Nacional de Coordinación Interinstitucional?",
+    "articulo_ids": [
+      2326
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuáles son las funciones del Centro Nacional de Inteligencia, Ciencia y Tecnología?",
+    "articulo_ids": [
+      2331
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cómo se estructura a nivel regional el Sistema Nacional de Desarrollo Profesional Integral?",
+    "articulo_ids": [
+      2332
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Quiénes integran el Comité Regional de Coordinación Interinstitucional?",
+    "articulo_ids": [
+      2335
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuáles son las funciones del Comité Regional de Coordinación Interinstitucional?",
+    "articulo_ids": [
+      2336
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Cuáles son las funciones del Centro Regional de Inteligencia, Ciencia y Tecnología?",
+    "articulo_ids": [
+      2338
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Estabilidad y Nombramientos",
+    "pregunta": "¿Se toma en cuenta la separación de Historia, Geografía y Cívica en los concursos de nombramiento docente?",
+    "articulo_ids": [
+      2356
+    ],
+    "origen": "ia_asistida"
   }
 ]

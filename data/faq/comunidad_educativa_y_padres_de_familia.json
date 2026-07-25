@@ -1089,5 +1089,517 @@
       2650
     ],
     "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Existe un Estatuto que regula a las Asociaciones de Padres de Familia de las Escuelas Primarias Oficiales?",
+    "articulo_ids": [
+      1439
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Dónde está ubicada la sede de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1441
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué tipo de actividades desarrolla la Asociación de Padres de Familia de una escuela primaria dentro de sus fines?",
+    "articulo_ids": [
+      1443
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Es la Asociación de Padres de Familia de una escuela primaria una organización apolítica?",
+    "articulo_ids": [
+      1444
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué derecho tienen los miembros honorarios de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1448
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Ante quién son recurribles las decisiones del Consejo de Delegados en una escuela primaria?",
+    "articulo_ids": [
+      1451
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué edad mínima se requiere para ocupar un cargo en la Junta Directiva de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1454
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuáles son las funciones del Secretario de Prensa y Propaganda de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1457
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuáles son las funciones del Fiscal de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1458
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuáles son las funciones de los Vocales de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1459
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué documentos debe custodiar la Junta Directiva de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1461
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Dónde deben guardarse los documentos de la Asociación de Padres de Familia de una escuela primaria y quiénes tienen las llaves?",
+    "articulo_ids": [
+      1462
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Dónde se depositan los fondos de la Asociación de Padres de Familia de una escuela primaria y quiénes firman los cheques?",
+    "articulo_ids": [
+      1464
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Quién custodia los bienes de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1465
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Para qué pueden destinarse los fondos de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1467
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Debe depositarse inmediatamente el dinero recibido por la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1469
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo debe realizar los pagos la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1470
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuándo se reúne el Consejo de Delegados de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1472
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuáles son las reuniones obligatorias del Consejo de Delegados de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1473
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Dónde deben resguardarse los documentos de la Asociación de Padres de Familia y quiénes tienen acceso a ellos?",
+    "articulo_ids": [
+      1408
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué constituye los fondos de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1410
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Quién custodia los bienes de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1411
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden usarse las recaudaciones de la Asociación de Padres de Familia antes de depositarlas en la cuenta bancaria?",
+    "articulo_ids": [
+      1416
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo debe realizar los pagos la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1417
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿A qué disposiciones se sujeta la Asociación de Padres de Familia para realizar actividades económicas?",
+    "articulo_ids": [
+      1419
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Con cuánta anticipación debe convocarse a una reunión de los Organismos de Gobierno de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1423
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuánto puede durar una sesión de los Organismos de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1425
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden los Organismos de Gobierno de la Asociación de Padres de Familia solicitar asesoría técnica?",
+    "articulo_ids": [
+      1426
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuándo debe reunirse obligatoriamente el Consejo de Delegados para elegir la Junta Directiva?",
+    "articulo_ids": [
+      1427
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo se llenan las vacantes que se producen en el Consejo de Delegados o en la Junta Directiva?",
+    "articulo_ids": [
+      1428
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué pasa con los asuntos no contemplados en los Estatutos de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1432
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo pueden modificarse los Estatutos de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1433
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden las Asociaciones de Padres de Familia agruparse en Federaciones o una Confederación Nacional?",
+    "articulo_ids": [
+      1434
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo obtiene reconocimiento legal una Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1435
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Puede cada Asociación de Padres de Familia establecer su propio reglamento de trabajo?",
+    "articulo_ids": [
+      1436
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Dónde está ubicada la sede de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1377
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué tipo de actividades desarrolla la Asociación de Padres de Familia dentro de sus fines?",
+    "articulo_ids": [
+      1379
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden las diferencias de credo religioso, raza o nacionalidad impedir pertenecer a la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1380
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué derecho tienen los miembros honorarios de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1384
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden los organismos de gobierno de la Asociación de Padres de Familia tomar decisiones contrarias a sus fines o no autorizadas?",
+    "articulo_ids": [
+      1386
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué constituye la Asamblea General de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1388
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Quién preside las reuniones de los organismos de gobierno de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1389
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Ante quién son recurribles las decisiones del Consejo de Delegados de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1392
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué requisito de edad se necesita para ocupar un cargo en la Junta Directiva o ser representante del Consejo de Delegados?",
+    "articulo_ids": [
+      1395
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuántas veces puede ser reelegido un miembro de la Junta Directiva de la Asociación de Padres de Familia?",
+    "articulo_ids": [
+      1397
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Con qué frecuencia se reúne ordinariamente la Junta Directiva de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1474
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Con cuánta anticipación debe notificarse a los miembros de los organismos de gobierno de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1475
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué pasa si no se logra el quórum reglamentario en una reunión de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1476
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cuánto puede durar una reunión de los organismos de gobierno de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1477
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden los organismos de gobierno de la Asociación de Padres de Familia de una escuela primaria solicitar asesoría de especialistas?",
+    "articulo_ids": [
+      1478
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué pasa con los asuntos no contemplados en los Estatutos de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1481
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Cómo se llenan las vacantes del Consejo de Delegados o la Junta Directiva de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1482
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Se entrega una copia de los Estatutos a cada padre o acudiente de la Asociación de Padres de Familia de una escuela primaria?",
+    "articulo_ids": [
+      1483
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Quién puede reformar los Estatutos de las Asociaciones de Padres de Familia de las Escuelas Primarias?",
+    "articulo_ids": [
+      1484
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿A qué edad pueden ingresar los niños a la etapa preescolar?",
+    "articulo_ids": [
+      1489
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué debe presentar el acudiente para inscribir a un estudiante en primer grado de primaria?",
+    "articulo_ids": [
+      1490
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué debe entregar el acudiente para inscribir a un estudiante en séptimo grado de premedia?",
+    "articulo_ids": [
+      1491
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué debe entregar el acudiente para inscribir a un estudiante en décimo grado de educación media?",
+    "articulo_ids": [
+      1492
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué documentación debe entregar el acudiente para inscribir a un estudiante trasladado de otro centro educativo?",
+    "articulo_ids": [
+      1494
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Están exentos del pago del Impuesto de Transferencia de Bienes Muebles (ITBM) los libros, textos y artículos de uso escolar?",
+    "articulo_ids": [
+      1888
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Establece el Ministerio de Educación mecanismos para dar seguimiento al cumplimiento de los deberes de los padres de familia?",
+    "articulo_ids": [
+      2445
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Pueden los Directores autorizar el ingreso de servidores públicos o representantes de organizaciones cívicas al centro educativo?",
+    "articulo_ids": [
+      2459
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Qué debe hacer un funcionario del centro educativo si tiene conocimiento de un hecho que atenta contra la integridad o libertad sexual de un estudiante?",
+    "articulo_ids": [
+      2461
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Comunidad Educativa y Padres de Familia",
+    "pregunta": "¿Brinda el Ministerio de Educación asesoría legal a quienes deben denunciar hechos que atentan contra la integridad sexual de un estudiante?",
+    "articulo_ids": [
+      2462
+    ],
+    "origen": "ia_asistida"
   }
 ]

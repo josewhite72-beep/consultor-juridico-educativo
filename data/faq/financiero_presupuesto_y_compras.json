@@ -1,19 +1,1106 @@
 [
   {
     "tema": "Financiero, Presupuesto y Compras",
-    "pregunta": "¿Qué es el subsidio estatal a centros educativos particulares?",
+    "pregunta": "¿Puede un servidor público percibir dos o más sueldos pagados por el Estado?",
     "articulo_ids": [
-      615
+      23
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
   },
   {
     "tema": "Financiero, Presupuesto y Compras",
-    "pregunta": "¿Cómo funcionan las compras del Ministerio de Educación?",
+    "pregunta": "¿Cómo se determina el salario del personal administrativo de un Centro de Enseñanza Superior según la cantidad de grupos?",
+    "articulo_ids": [
+      119
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿A cargo de qué presupuesto está toda función educativa sistematizada que realice el Estado?",
+    "articulo_ids": [
+      209
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación destinar fondos de operación, mantenimiento e inversión a las Direcciones Regionales de Educación?",
+    "articulo_ids": [
+      227
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué se hace cuando no existe partida presupuestaria para nombrar directores y subdirectores de ciertos centros educativos?",
+    "articulo_ids": [
+      296
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Se planifica y ejecuta el servicio de las bibliotecas escolares con presupuesto estatal?",
+    "articulo_ids": [
+      334
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Pueden las escuelas particulares de educación inicial recibir incentivos económicos del Estado?",
+    "articulo_ids": [
+      338
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Deben incluirse en los presupuestos de gastos anuales las partidas necesarias para cumplir la Ley Orgánica de Educación?",
+    "articulo_ids": [
+      358
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se distribuye el Fondo de Equidad y Calidad de la Educación (FECE)?",
+    "articulo_ids": [
+      449
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Tiene prioridad el presupuesto de educación dentro del presupuesto general del Estado?",
+    "articulo_ids": [
+      452
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué porcentaje de sus rentas anuales deben destinar los municipios a la educación oficial?",
+    "articulo_ids": [
+      456
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién debe aprobar los presupuestos municipales y provinciales en lo referente al Ramo de Educación?",
+    "articulo_ids": [
+      465
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación incluir en su presupuesto una partida para pagar la evaluación de textos escolares?",
+    "articulo_ids": [
+      547
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué se considera un subsidio estatal para un centro educativo particular?",
+    "articulo_ids": [
+      615
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué documentos debe aportar un centro educativo particular para solicitar un subsidio estatal?",
+    "articulo_ids": [
+      616
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué verifica la Dirección Nacional de Educación Particular antes de otorgar un subsidio estatal?",
+    "articulo_ids": [
+      618
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se aprueba o niega el otorgamiento de un subsidio estatal a un centro educativo particular?",
+    "articulo_ids": [
+      619
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué obligaciones tiene un centro educativo particular que recibe un subsidio estatal?",
+    "articulo_ids": [
+      620
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las causales de suspensión de un subsidio estatal?",
+    "articulo_ids": [
+      621
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las causales de cancelación de un subsidio estatal?",
+    "articulo_ids": [
+      622
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Hasta cuándo se mantiene la suspensión de un subsidio estatal?",
+    "articulo_ids": [
+      623
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe la Junta Electoral Nacional someter su presupuesto y cronograma electoral a aprobación del Despacho Superior?",
+    "articulo_ids": [
+      869
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué procedimiento se sigue para asignar funciones directivas en un plantel cuando no existe partida presupuestaria?",
+    "articulo_ids": [
+      881
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Deben los Directores y Jefes de Departamento preparar un plan de trabajo anual conforme a las asignaciones presupuestarias?",
+    "articulo_ids": [
+      971
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Tiene derecho a viáticos el servidor público que viaje en misión oficial?",
+    "articulo_ids": [
+      986
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede la remuneración de un servidor público tener efecto retroactivo antes de la toma de posesión del cargo?",
+    "articulo_ids": [
+      994
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se constituye el Fondo de Equidad y Calidad de la Educación (FECE)?",
+    "articulo_ids": [
+      1081
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Con qué recursos funciona la Comisión de Supervisión del Fondo del Seguro Educativo?",
+    "articulo_ids": [
+      1083
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién administra el 27% de los ingresos del seguro educativo destinado a los colegios y escuelas oficiales?",
+    "articulo_ids": [
+      1093
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las funciones de la Oficina de Administración del FECE?",
+    "articulo_ids": [
+      1095
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién administra los fondos del FECE destinados a los centros escolares del primer y segundo nivel de enseñanza?",
+    "articulo_ids": [
+      1096
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se administra el Fondo en los centros escolares de premedia y media que tienen Subdirector Administrativo?",
+    "articulo_ids": [
+      1097
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién firma los cheques para la adquisición de bienes y servicios con fondos del FECE?",
+    "articulo_ids": [
+      1098
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién firma los cheques del FECE cuando no existe Director en un centro escolar con dos o más maestros?",
+    "articulo_ids": [
+      1099
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién firma los cheques del FECE en un centro escolar que cuenta con un solo docente?",
+    "articulo_ids": [
+      1100
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede el Director de un centro escolar autorizar por sí mismo la compra de un bien o servicio de menos de dos mil balboas?",
+    "articulo_ids": [
+      1101
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién autoriza la compra de un bien o servicio no previsto en el presupuesto escolar?",
+    "articulo_ids": [
+      1102
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿A qué disposiciones legales están sujetas las erogaciones que se hacen con recursos del FECE?",
+    "articulo_ids": [
+      1103
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Para qué pueden utilizarse los excedentes de las recaudaciones del seguro educativo?",
+    "articulo_ids": [
+      1105
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se distribuyen los excedentes de las recaudaciones del seguro educativo entre las escuelas del primer nivel?",
+    "articulo_ids": [
+      1106
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué determina el Proyecto Educativo de Centro (PEC) en relación con la asignación de fondos del FECE?",
+    "articulo_ids": [
+      1107
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se distribuye el 94% del FECE que recibe cada centro educativo?",
+    "articulo_ids": [
+      1108
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Realiza la Dirección Regional de Educación un estudio anual de las necesidades de cada centro escolar para la distribución del FECE?",
+    "articulo_ids": [
+      1109
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué deben hacer los Directores de centros escolares que comparten el mismo edificio respecto al presupuesto de mantenimiento?",
+    "articulo_ids": [
+      1110
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿A dónde se envían los proyectos de presupuesto de egresos de los centros escolares una vez aprobados por la Dirección Regional?",
+    "articulo_ids": [
+      1111
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién aprueba el plan general de asignación de fondos del FECE?",
+    "articulo_ids": [
+      1112
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Con qué periodicidad se ponen a disposición de los centros educativos las cantidades asignadas del FECE?",
+    "articulo_ids": [
+      1113
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se distribuye el 4% del FECE destinado a la capacitación docente?",
+    "articulo_ids": [
+      1114
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo distribuye la Oficina de Administración del FECE los fondos de capacitación docente entre las regiones?",
+    "articulo_ids": [
+      1115
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se administra el fondo de Capacitación Docente?",
+    "articulo_ids": [
+      1116
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién realiza la capacitación docente que se financia con el 4% del FECE?",
+    "articulo_ids": [
+      1117
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Para qué se utiliza el 2% del FECE?",
+    "articulo_ids": [
+      1118
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe la Oficina de Administración del FECE presentar un informe anual sobre los fondos de administración y supervisión?",
+    "articulo_ids": [
+      1119
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿En qué cuenta se depositan los fondos destinados a la administración y supervisión del FECE?",
+    "articulo_ids": [
+      1120
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién firma los cheques del fondo de administración y supervisión del FECE?",
+    "articulo_ids": [
+      1121
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe presentarse un proyecto o perfil de proyecto para sustentar el uso del 75% de la inversión escolar del FECE?",
+    "articulo_ids": [
+      1122
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿En qué cuenta se deposita el 75% de la inversión escolar del FECE asignado a cada centro?",
+    "articulo_ids": [
+      1123
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuándo debe depositarse en una cuenta especial el fondo de Bienestar Estudiantil de un centro escolar?",
+    "articulo_ids": [
+      1124
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuál es el objeto del fondo destinado a Bienestar Estudiantil?",
+    "articulo_ids": [
+      1125
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Deben los Directores de escuelas y colegios oficiales presentar un informe mensual sobre el uso de los fondos del FECE?",
+    "articulo_ids": [
+      1126
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Pueden los directores de los centros escolares comprometer fondos sin seguir el procedimiento establecido?",
+    "articulo_ids": [
+      1128
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Está prohibido a los directores de centros educativos adquirir bienes o servicios sin contar con los fondos disponibles?",
+    "articulo_ids": [
+      1129
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿A quién corresponde gestionar ante el Ministerio de Economía y Finanzas los desembolsos del seguro educativo?",
+    "articulo_ids": [
+      1130
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién presenta la terna de candidatos para el representante de los Directores del primer y segundo nivel ante la Comisión de Supervisión del FECE?",
+    "articulo_ids": [
+      1133
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Prestan sus servicios de forma gratuita los miembros de la Comisión de Supervisión del FECE?",
+    "articulo_ids": [
+      1134
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Por cuánto tiempo permanecen en sus funciones los integrantes de la Comisión de Supervisión del FECE?",
+    "articulo_ids": [
+      1135
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las funciones de la Comisión de Supervisión del FECE?",
+    "articulo_ids": [
+      1136
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuándo presenta la Comisión de Supervisión del Fondo del Seguro Educativo su plan anual de operaciones?",
+    "articulo_ids": [
+      1137
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Realiza el Ministerio de Educación una evaluación anual de impacto del FECE?",
+    "articulo_ids": [
+      1138
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuál es el objetivo de la evaluación anual de impacto del FECE?",
+    "articulo_ids": [
+      1139
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién presenta al Ministro de Educación el informe con las recomendaciones de la evaluación del FECE?",
+    "articulo_ids": [
+      1140
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuántas cotizaciones debe adjuntar un gremio de educadores al presentar los costos de un proyecto?",
+    "articulo_ids": [
+      1156
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede un gremio de educadores destinar recursos a la compra o arrendamiento de locales para capacitación de sus agremiados?",
+    "articulo_ids": [
+      1160
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién aprueba la compra de insumos y equipos para los proyectos agropecuarios de un centro educativo?",
+    "articulo_ids": [
+      1170
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿En qué cuenta se depositan los ingresos de los proyectos agropecuarios de un centro educativo?",
+    "articulo_ids": [
+      1174
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué documentos puede firmar el Director Nacional de Administración según el Resuelto 857?",
+    "articulo_ids": [
+      1179
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Hasta qué monto puede firmar cheques el Director Nacional de Finanzas y Desarrollo Institucional?",
+    "articulo_ids": [
+      1181
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Hasta qué monto puede firmar documentos el Viceministro Administrativo según el Resuelto 2485?",
+    "articulo_ids": [
+      1182
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tiene el Jefe de Compras del Ministerio de Educación en los actos públicos de selección de contratista?",
     "articulo_ids": [
       1185
     ],
-    "nota": "Cobertura parcial: solo hay detalles de delegación de firma; la Ley general de Contrataciones Públicas no está en este corpus.",
-    "origen": "curada"
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tiene el Director Nacional de Administración en los procesos de contratación?",
+    "articulo_ids": [
+      1186
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tiene el Viceministro Administrativo en los procesos de contratación?",
+    "articulo_ids": [
+      1187
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tienen los Supervisores de Compras Menores y Mayores del Ministerio de Educación?",
+    "articulo_ids": [
+      1188
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tienen el Director Regional de Educación y el Subdirector Técnico Administrativo en los procesos de contratación?",
+    "articulo_ids": [
+      1189
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tiene el Jefe de Compras de cada Región Educativa en los procesos de contratación?",
+    "articulo_ids": [
+      1190
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tienen el Director y Subdirector de un centro educativo para el manejo del fondo de Matrícula y Bienestar Estudiantil del FECE?",
+    "articulo_ids": [
+      1191
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué facultades tiene el funcionario asignado al manejo del FECE en cada centro educativo?",
+    "articulo_ids": [
+      1192
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación incluir anualmente en su presupuesto los recursos para este programa sin afectar los programas de alimentación escolar existentes?",
+    "articulo_ids": [
+      1200
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación establecer un presupuesto especial para el Programa Nacional de Educación contra las Drogas?",
+    "articulo_ids": [
+      1214
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede el Programa Nacional de Educación contra las Drogas recibir donaciones de otros gobiernos u organismos?",
+    "articulo_ids": [
+      1216
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿De qué depende el pago de gastos de supervisión o movilización de un Director Provincial?",
+    "articulo_ids": [
+      1282
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede usarse el Fondo de Matrícula para pagar la contratación del seguro estudiantil?",
+    "articulo_ids": [
+      1363
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Patronato preparar su presupuesto anual y administrar sus propios bienes?",
+    "articulo_ids": [
+      1718
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo está constituido el patrimonio del Patronato?",
+    "articulo_ids": [
+      1719
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién fiscaliza el manejo de los bienes y fondos del Patronato?",
+    "articulo_ids": [
+      1721
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Órgano Ejecutivo asignar partidas en el Presupuesto General del Estado para el funcionamiento del Patronato?",
+    "articulo_ids": [
+      1734
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué alternativas tiene un afiliado del SIACAP para disponer de los fondos de su cuenta individual al cumplir la edad de pensión?",
+    "articulo_ids": [
+      1777
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuál es el aporte de los educadores al fondo del Plan de Retiro Anticipado Autofinanciable (PRAA)?",
+    "articulo_ids": [
+      1805
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿En qué tipo de instrumentos pueden invertirse los recursos del PRAA?",
+    "articulo_ids": [
+      1827
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las funciones de la Comisión del Plan de Retiro Anticipado Autofinanciable (PRAA)?",
+    "articulo_ids": [
+      1830
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Asigna el Ministerio de Educación partidas presupuestarias para el funcionamiento de la Dirección Nacional de Coordinación del Tercer Nivel de Enseñanza?",
+    "articulo_ids": [
+      2085
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación incluir en su presupuesto las partidas necesarias para el funcionamiento y equipamiento de esta Dirección?",
+    "articulo_ids": [
+      2120
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Se autoriza al Ministerio de Educación a incluir en el presupuesto fiscal las partidas para la Dirección Nacional de Procesos y Fortalecimiento Institucional?",
+    "articulo_ids": [
+      2129
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuáles son las funciones de la Dirección Nacional de Proyectos del Ministerio de Educación?",
+    "articulo_ids": [
+      2131
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué áreas conforman la Dirección Nacional de Proyectos?",
+    "articulo_ids": [
+      2133
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Se autoriza al Ministerio de Educación a incluir en su presupuesto anual las partidas para la Dirección Nacional de Proyectos?",
+    "articulo_ids": [
+      2137
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Se autoriza al Ministerio de Educación a incluir en el presupuesto fiscal las partidas para la Dirección de Cumplimiento de Trámites Administrativos y Financieros?",
+    "articulo_ids": [
+      2146
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Destina el Estado recursos en el presupuesto nacional para capacitar a los servidores públicos en el idioma inglés?",
+    "articulo_ids": [
+      2176
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Tienen derecho a viáticos los miembros de la Comisión Nacional de Desfiles Patrios aunque actúen ad-honórem?",
+    "articulo_ids": [
+      2208
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se adjudica la administración de la tienda, el kiosco o la cafetería escolar de un centro educativo?",
+    "articulo_ids": [
+      2265
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué procedimiento se sigue para contratar y pagar a los organismos capacitadores durante las jornadas de capacitación docente?",
+    "articulo_ids": [
+      2308
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién sufraga los gastos del aprendizaje en la empresa dentro de la formación profesional dual?",
+    "articulo_ids": [
+      2405
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién administra las donaciones y partidas presupuestarias destinadas al sistema de formación profesional dual?",
+    "articulo_ids": [
+      2406
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿De qué depende el nombramiento de funcionarios en las nuevas carreras incluidas en los manuales de clases ocupacionales?",
+    "articulo_ids": [
+      2471
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién evalúa la viabilidad presupuestaria para el nombramiento de funcionarios en las nuevas carreras universitarias incorporadas al manual de clases ocupacionales?",
+    "articulo_ids": [
+      2479
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿En qué presupuesto se incluyen los incentivos y el funcionamiento del Sistema Nacional de Investigación?",
+    "articulo_ids": [
+      2510
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué términos define la Ley 18 para la contratación pública del Ministerio de Educación, como 'acuerdo basado en lista de precios' o 'licitación pública en dos etapas'?",
+    "articulo_ids": [
+      2564
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué obligaciones tienen los funcionarios del Ministerio de Educación respecto a la ejecución de los contratos adjudicados?",
+    "articulo_ids": [
+      2565
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación elaborar un plan anual de adquisiciones?",
+    "articulo_ids": [
+      2566
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede el Ministerio de Educación realizar un análisis de mercado antes de preparar el pliego de cargos?",
+    "articulo_ids": [
+      2568
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede el Ministerio de Educación adquirir bienes y servicios mediante órdenes de compra basadas en acuerdos de listas de precios?",
+    "articulo_ids": [
+      2569
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Se pueden establecer acuerdos basados en listas de precios con más de un contratista en una misma región educativa?",
+    "articulo_ids": [
+      2570
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo debe el Ministerio de Educación expedir las órdenes de compra a los signatarios de un acuerdo basado en lista de precios?",
+    "articulo_ids": [
+      2571
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede el Ministerio de Educación usar la licitación pública en dos etapas para contratar servicios y obras?",
+    "articulo_ids": [
+      2572
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se adquieren los bienes y servicios objeto de un contrato con el Ministerio de Educación?",
+    "articulo_ids": [
+      2585
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué debe detallarse en una orden de compra del Ministerio de Educación?",
+    "articulo_ids": [
+      2587
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuál es el objeto del Decreto Ejecutivo 674 sobre contrataciones del Ministerio de Educación?",
+    "articulo_ids": [
+      2595
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué es el sistema electrónico 'MeducaCompra'?",
+    "articulo_ids": [
+      2597
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se convoca un acto público de contratación en el Ministerio de Educación?",
+    "articulo_ids": [
+      2599
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se formaliza un Acuerdo basado en Lista de Precios con un proponente?",
+    "articulo_ids": [
+      2605
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Puede un proveedor mejorar el precio ofrecido durante la vigencia de un Acuerdo basado en Lista de Precios?",
+    "articulo_ids": [
+      2606
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo se expiden las órdenes de compra entre los signatarios de un Acuerdo basado en Lista de Precios?",
+    "articulo_ids": [
+      2610
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cómo funciona el Catálogo Electrónico para asignar los turnos de las órdenes de compra?",
+    "articulo_ids": [
+      2611
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Cuándo se requiere una fianza de cumplimiento en una orden de compra del Ministerio de Educación?",
+    "articulo_ids": [
+      2612
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué criterios técnicos toma en cuenta el Ministerio de Educación para optar por la Licitación en dos etapas?",
+    "articulo_ids": [
+      2614
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Qué se verifica antes de convocar la segunda etapa de una licitación de obras de construcción?",
+    "articulo_ids": [
+      2623
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Quién administra el Sistema Electrónico 'MeducaCompra'?",
+    "articulo_ids": [
+      2628
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Debe el Ministerio de Educación llevar un registro de las órdenes de compra generadas por contrato de cantidades estimadas?",
+    "articulo_ids": [
+      2633
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Financiero, Presupuesto y Compras",
+    "pregunta": "¿Incorporó el Ministerio de Educación en su presupuesto de 2012 a la Dirección Nacional de Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2685
+    ],
+    "origen": "ia_asistida"
   }
 ]

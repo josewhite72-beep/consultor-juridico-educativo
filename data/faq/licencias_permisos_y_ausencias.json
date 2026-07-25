@@ -9,36 +9,418 @@
   },
   {
     "tema": "Licencias, Permisos y Ausencias",
-    "pregunta": "¿Cómo solicito una licencia sin sueldo?",
+    "pregunta": "¿Tienen derecho a licencia sin sueldo los educadores que integran las Comisiones de Selección de Personal Docente?",
+    "articulo_ids": [
+      840
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Debe un servidor público presentar un informe del estado de sus trabajos antes de retirarse por licencia, vacaciones u otra ausencia prolongada?",
+    "articulo_ids": [
+      974
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué incentivos recibe el servidor público del Ministerio de Educación por no incurrir en ausencias o tardanzas?",
+    "articulo_ids": [
+      1002
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Por qué motivos puede un servidor público ausentarse justificadamente de su puesto de trabajo?",
+    "articulo_ids": [
+      1011
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué consecuencia tiene una ausencia injustificada de cinco o más días hábiles consecutivos?",
+    "articulo_ids": [
+      1012
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuántas horas semanales de permiso se conceden a los servidores públicos que son estudiantes universitarios?",
+    "articulo_ids": [
+      1017
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué tipos de licencia puede solicitar un servidor público del Ministerio de Educación?",
+    "articulo_ids": [
+      1018
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede un servidor público separarse de su cargo antes de que se le conceda la licencia solicitada?",
+    "articulo_ids": [
+      1019
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Para qué puede un servidor público solicitar licencia sin sueldo?",
     "articulo_ids": [
       1020
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
   },
   {
     "tema": "Licencias, Permisos y Ausencias",
-    "pregunta": "¿Cuánto dura la licencia por maternidad?",
+    "pregunta": "¿Para qué puede un servidor público solicitar licencia con sueldo?",
     "articulo_ids": [
-      401
+      1021
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
   },
   {
     "tema": "Licencias, Permisos y Ausencias",
-    "pregunta": "¿Qué pasa si me incapacito por enfermedad?",
+    "pregunta": "¿Qué licencias especiales remuneradas por el sistema de seguridad social puede recibir un servidor público?",
+    "articulo_ids": [
+      1022
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuándo debe reincorporarse un servidor público al vencimiento de su licencia?",
+    "articulo_ids": [
+      1023
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede un servidor público renunciar a su derecho de disfrutar una licencia?",
+    "articulo_ids": [
+      1024
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Afectan las licencias sin sueldo la continuidad del tiempo de servicios para efectos de vacaciones?",
+    "articulo_ids": [
+      1030
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuántos días de licencia con sueldo al año tiene un docente por enfermedad, duelo o casos urgentes?",
+    "articulo_ids": [
+      1305
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Se concede licencia con sueldo durante la primera semana de labores del semestre escolar?",
+    "articulo_ids": [
+      1306
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Quién concede la licencia por ausencia de un docente según su duración?",
+    "articulo_ids": [
+      1308
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Se descuenta el sueldo por una ausencia injustificada de un docente?",
+    "articulo_ids": [
+      1310
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede un docente solicitar otra licencia con sueldo si ya usó la de duelo o enfermedad sin completar los 30 días?",
+    "articulo_ids": [
+      1313
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuántas tardanzas constituyen un día de ausencia injustificada?",
+    "articulo_ids": [
+      1316
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Existe una licencia sin sueldo para la mejor crianza de los hijos para las funcionarias del Ministerio de Educación?",
+    "articulo_ids": [
+      1319
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Debe solicitarse la licencia para la mejor crianza de la criatura junto con la de reingreso por gravidez?",
+    "articulo_ids": [
+      1320
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué pasa con el reemplazo nombrado durante una licencia por gravidez cuando la titular reingresa?",
+    "articulo_ids": [
+      1321
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuáles son las causas de suspensión temporal de los efectos del contrato de trabajo sin responsabilidad para el trabajador ni el empleador?",
+    "articulo_ids": [
+      32
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cómo se genera el fondo de licencia por incapacidad de un trabajador?",
+    "articulo_ids": [
+      33
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Recibe reconocimiento el educador que no tiene ninguna ausencia ni tardanza durante el año lectivo?",
+    "articulo_ids": [
+      181
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede un docente obtener licencia para desempeñar un cargo docente en el extranjero o para realizar estudios de perfeccionamiento profesional?",
+    "articulo_ids": [
+      360
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Por cuánto tiempo se expide la licencia temporal a los aspirantes que aprueban los exámenes correspondientes?",
+    "articulo_ids": [
+      364
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué se considera abandono del puesto y qué consecuencias tiene para un docente?",
+    "articulo_ids": [
+      390
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuántos días de licencia con sueldo tiene derecho un docente en caso de enfermedad, duelo u otros casos urgentes?",
     "articulo_ids": [
       399
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
   },
   {
     "tema": "Licencias, Permisos y Ausencias",
-    "pregunta": "¿Existen licencias para estudios, con o sin sueldo?",
+    "pregunta": "¿Cuántas semanas de licencia por maternidad tiene derecho una maestra antes y después del parto?",
     "articulo_ids": [
-      1020,
-      1021,
+      401
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Se cuenta el tiempo de licencia por gravidez para el aumento de sueldo del docente?",
+    "articulo_ids": [
+      403
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Tienen derecho a licencia con sueldo los miembros de la Comisión Coordinadora de Educación Nacional que sean servidores del sector educativo?",
+    "articulo_ids": [
+      563
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿En qué casos procede un nombramiento interino por licencia del titular del cargo?",
+    "articulo_ids": [
+      691
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Concede el Ministerio de Educación licencias con sueldo completo para realizar estudios en el exterior?",
+    "articulo_ids": [
+      1322
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Se nombra un reemplazo para el funcionario que goza de licencia por estudios con sueldo?",
+    "articulo_ids": [
+      1323
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuándo se concede una licencia por estudios con sueldo sin nombrar un reemplazo?",
+    "articulo_ids": [
       1324
     ],
-    "origen": "curada"
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿A qué se compromete el beneficiario de una licencia por estudios con sueldo?",
+    "articulo_ids": [
+      1325
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿A qué normativa están sujetas las licencias por estudios con sueldo?",
+    "articulo_ids": [
+      1326
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Por cuánto tiempo máximo se puede conceder una licencia por motivos personales sin sueldo?",
+    "articulo_ids": [
+      1328
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué requisitos debe cumplir un servidor público para optar por una licencia por motivos personales?",
+    "articulo_ids": [
+      1329
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué debe hacer un servidor público al vencer su licencia por motivos personales?",
+    "articulo_ids": [
+      1330
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede el Ministerio de Educación negar una licencia por motivos personales?",
+    "articulo_ids": [
+      1331
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿En qué casos se puede conceder licencia sin sueldo al personal administrativo del Ramo Educativo?",
+    "articulo_ids": [
+      1332
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Por cuánto tiempo se concede la licencia sin sueldo al personal administrativo para ocupar un cargo de elección popular?",
+    "articulo_ids": [
+      1333
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué requisitos debe cumplir el servidor público para optar por la licencia sin sueldo para ocupar un cargo de elección popular o de libre nombramiento?",
+    "articulo_ids": [
+      1334
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Puede el Ministro de Educación negar la solicitud de licencia sin sueldo del personal administrativo?",
+    "articulo_ids": [
+      1335
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué pasa si un servidor público no se reincorpora al vencer su licencia sin sueldo?",
+    "articulo_ids": [
+      1336
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cuánto tiempo debe esperar un servidor público para optar por otra licencia después de reingresar?",
+    "articulo_ids": [
+      1337
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cómo se tramitan las licencias por gravidez, riesgos profesionales o enfermedad prolongada del personal administrativo?",
+    "articulo_ids": [
+      1338
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Qué debe hacer un funcionario administrativo para acogerse al beneficio de vacaciones?",
+    "articulo_ids": [
+      1342
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Licencias, Permisos y Ausencias",
+    "pregunta": "¿Cómo se rige la suspensión del contrato de un aprendiz en un programa de formación profesional?",
+    "articulo_ids": [
+      2396
+    ],
+    "origen": "ia_asistida"
   }
 ]
