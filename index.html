@@ -186,11 +186,13 @@
   }
   .mode-tab.active{color:var(--ink); border-bottom-color:var(--red);}
 
+  .faq-search-box{margin-bottom:12px; max-width:420px;}
   .faq-tema-group{margin-bottom:22px;}
   .faq-tema-group h3{
     font-family:var(--serif); font-size:15px; color:var(--ink); margin:0 0 8px;
     border-bottom:1px solid var(--line); padding-bottom:5px;
   }
+  .faq-tema-group h3 .tema-count{font-family:var(--sans); font-size:11px; color:var(--ink-soft); font-weight:400;}
   .faq-item{
     background:var(--paper-raised); border:1px solid var(--line); border-radius:var(--radius);
     margin-bottom:8px; overflow:hidden;
@@ -198,10 +200,17 @@
   .faq-question{
     width:100%; text-align:left; background:none; border:none; cursor:pointer;
     padding:11px 14px; font-family:var(--sans); font-size:14px; font-weight:600; color:var(--ink);
-    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    display:flex; align-items:center; gap:10px;
   }
+  .faq-question > span:first-child{flex:1;}
   .faq-question:hover{background:var(--paper);}
-  .faq-question .arrow{font-size:12px; color:var(--ink-soft); transition:transform .15s;}
+  .faq-question .arrow{font-size:12px; color:var(--ink-soft); transition:transform .15s; flex-shrink:0;}
+  .origen-chip{
+    font-family:var(--sans); font-size:9.5px; font-weight:600; text-transform:uppercase;
+    letter-spacing:.04em; padding:2px 6px; border-radius:999px; white-space:nowrap; flex-shrink:0;
+  }
+  .origen-chip.origen-curada{color:var(--green); border:1px solid var(--green);}
+  .origen-chip.origen-ia_asistida{color:var(--ink-soft); border:1px solid var(--ink-soft);}
   .faq-item.open .faq-question .arrow{transform:rotate(90deg);}
   .faq-answer{display:none; padding:0 14px 14px;}
   .faq-item.open .faq-answer{display:block;}
@@ -365,7 +374,14 @@
       <span id="statusCount"></span>
     </div>
     <div id="results"></div>
-    <div id="faqView" style="display:none;"></div>
+    <div id="faqView" style="display:none;">
+      <div class="search-box faq-search-box">
+        <input type="text" id="faqSearchInput" placeholder="Buscar en preguntas frecuentes…">
+        <button id="faqSearchBtn" aria-label="Buscar">🔍</button>
+      </div>
+      <div class="status-line" id="faqStatusLine"></div>
+      <div id="faqResults"></div>
+    </div>
   </main>
 </div>
 
@@ -401,7 +417,7 @@
     <div class="row">
       <button class="danger" id="clearCacheBtn">Limpiar caché de la app</button>
     </div>
-    <p class="hint" style="margin-top:14px; text-align:center; opacity:.7;">Versión del código: 2026-07-24-e</p>
+    <p class="hint" style="margin-top:14px; text-align:center; opacity:.7;">Versión del código: 2026-07-25-c</p>
   </div>
 </div>
 
@@ -863,39 +879,93 @@ Responde en español, de forma clara y breve.`;
   // ---------- Preguntas frecuentes ----------
   let faqData = [];
 
+  // Lista fija de los 13 temas y sus archivos. Cada uno se intenta cargar por
+  // separado; si un archivo todavía no existe en el repo (404), simplemente
+  // se ignora sin romper nada — así, agregar un lote nuevo en el futuro es
+  // solo subir un archivo a data/faq/, sin tocar este código nunca más.
+  const FAQ_ARCHIVOS = [
+    'estructura_y_autoridades_de_meduca',
+    'traslados_concursos_y_ascensos',
+    'estabilidad_y_nombramientos',
+    'salario_y_prestaciones_economicas',
+    'comunidad_educativa_y_padres_de_familia',
+    'financiero_presupuesto_y_compras',
+    'curriculo_planificacion_y_evaluacion_academica',
+    'regimen_y_disciplina_estudiantil',
+    'regimen_disciplinario_personal_docente_y_administr',
+    'licencias_permisos_y_ausencias',
+    'educacion_especial_inclusiva_y_poblaciones_vulnera',
+    'etica_y_conducta_profesional',
+    'funciones_y_responsabilidades_del_cargo',
+  ];
+
   function loadFaq(){
-    return fetch('./data/faq.json')
-      .then(r => r.ok ? r.json() : [])
-      .then(data => { faqData = data; renderFaq(); })
-      .catch(() => { faqData = []; });
+    const intentos = FAQ_ARCHIVOS.map(slug =>
+      fetch(`./data/faq/${slug}.json`)
+        .then(r => r.ok ? r.json() : [])
+        .catch(() => [])
+    );
+    return Promise.all(intentos).then(listas => {
+      faqData = listas.flat();
+      renderFaq();
+    });
   }
 
-  function renderFaq(){
+  function renderFaq(query){
+    query = query || "";
     const byTema = {};
     faqData.forEach(f => {
       if(!byTema[f.tema]) byTema[f.tema] = [];
       byTema[f.tema].push(f);
     });
 
-    const faqView = document.getElementById('faqView');
+    const faqResults = document.getElementById('faqResults');
+    const faqStatusLine = document.getElementById('faqStatusLine');
+
     if(!faqData.length){
-      faqView.innerHTML = `<div class="empty-state">No se pudieron cargar las preguntas frecuentes.</div>`;
+      faqResults.innerHTML = `<div class="empty-state">No se pudieron cargar las preguntas frecuentes.</div>`;
+      faqStatusLine.textContent = "";
       return;
     }
 
-    faqView.innerHTML = Object.entries(byTema).map(([tema, preguntas]) => `
-      <div class="faq-tema-group">
-        <h3>${escapeHtml(tema)}</h3>
-        ${preguntas.map((f, i) => `
-          <div class="faq-item" data-tema="${escapeHtml(tema)}" data-idx="${i}">
-            <button class="faq-question">
-              <span>${escapeHtml(f.pregunta)}</span><span class="arrow">▶</span>
-            </button>
-            <div class="faq-answer"></div>
-          </div>
-        `).join("")}
-      </div>
-    `).join("");
+    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    function coincide(f){
+      if(!terms.length) return true;
+      const hay = normalize(f.pregunta);
+      return terms.every(t => hay.includes(t));
+    }
+
+    let totalMostradas = 0;
+    const grupos = Object.entries(byTema).map(([tema, preguntas]) => {
+      // Mantenemos el índice original dentro del tema (para que el handler de
+      // clic siga encontrando la pregunta correcta aunque esté filtrada).
+      const conIndice = preguntas.map((f, i) => ({f, i})).filter(({f}) => coincide(f));
+      totalMostradas += conIndice.length;
+      if(!conIndice.length) return "";
+      return `
+        <div class="faq-tema-group">
+          <h3>${escapeHtml(tema)} <span class="tema-count">(${conIndice.length})</span></h3>
+          ${conIndice.map(({f, i}) => `
+            <div class="faq-item" data-tema="${escapeHtml(tema)}" data-idx="${i}">
+              <button class="faq-question">
+                <span>${highlight(f.pregunta, terms)}</span>
+                <span class="origen-chip origen-${f.origen||'curada'}">${f.origen==='ia_asistida' ? 'IA · verificada' : 'curada'}</span>
+                <span class="arrow">▶</span>
+              </button>
+              <div class="faq-answer"></div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }).join("");
+
+    faqStatusLine.textContent = query
+      ? `${totalMostradas} de ${faqData.length} preguntas coinciden con "${query}"`
+      : `${faqData.length} preguntas en total`;
+
+    faqResults.innerHTML = totalMostradas
+      ? grupos
+      : `<div class="empty-state">Sin coincidencias. Prueba con otra palabra.</div>`;
   }
 
   document.getElementById('faqView').addEventListener('click', (e)=>{
@@ -920,6 +990,15 @@ Responde en español, de forma clara y breve.`;
       item.dataset.rendered = "1";
     }
   });
+
+  // ---------- Buscador interno del FAQ ----------
+  const faqSearchInput = document.getElementById('faqSearchInput');
+  const faqSearchBtn = document.getElementById('faqSearchBtn');
+  faqSearchBtn.addEventListener('click', ()=> renderFaq(faqSearchInput.value.trim()));
+  faqSearchInput.addEventListener('keydown', (e)=>{
+    if(e.key === 'Enter') renderFaq(faqSearchInput.value.trim());
+  });
+  faqSearchInput.addEventListener('input', ()=> renderFaq(faqSearchInput.value.trim()));
 
   // ---------- Pestañas de modo ----------
   const tabExplorar = document.getElementById('tabExplorar');
