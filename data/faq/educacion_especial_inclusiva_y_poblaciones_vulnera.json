@@ -1,0 +1,466 @@
+[
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué derechos tiene una adolescente embarazada en el sistema educativo?",
+    "articulo_ids": [
+      1590
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Cómo se regula la educación especial?",
+    "articulo_ids": [
+      1551
+    ],
+    "origen": "curada"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué dice la Constitución sobre la atención a estudiantes con necesidades excepcionales?",
+    "articulo_ids": [
+      16
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿En qué niveles se organiza el subsistema regular de educación en Panamá y cuánto dura cada uno?",
+    "articulo_ids": [
+      249
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quiénes integran la Comisión Evaluadora del Perfil del Facilitador de Jóvenes y Adultos?",
+    "articulo_ids": [
+      297
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué población está comprendida dentro de la educación especial según la Ley Orgánica de Educación?",
+    "articulo_ids": [
+      298
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién supervisa y coordina las acciones educativas en las instituciones donde se imparte educación especial?",
+    "articulo_ids": [
+      299
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿La educación especial permite mayor flexibilidad en la edad de admisión, la promoción y los exámenes de los estudiantes?",
+    "articulo_ids": [
+      300
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿A quiénes se les imparte educación especial por desajustes sociales o problemas de quimiodependencia?",
+    "articulo_ids": [
+      302
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Para qué poblaciones planifica el Ministerio de Educación los planes de estudio de educación especial?",
+    "articulo_ids": [
+      497
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Dónde recibe educación un estudiante cuya discapacidad no le permite incluirse en un centro educativo regular?",
+    "articulo_ids": [
+      1557
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Puede un estudiante de un centro de educación especial trasladarse a un centro educativo regular?",
+    "articulo_ids": [
+      1558
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué currículo utilizan los centros de educación especial?",
+    "articulo_ids": [
+      1559
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién es responsable de elaborar y aplicar las adecuaciones curriculares de un estudiante con necesidades educativas especiales?",
+    "articulo_ids": [
+      1563
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué se considera adolescente embarazada según la Ley 29?",
+    "articulo_ids": [
+      1591
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué derechos tiene la adolescente embarazada durante el embarazo, el parto y el puerperio?",
+    "articulo_ids": [
+      1592
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién es responsable de supervisar el avance académico de una estudiante embarazada o del adolescente que la embarazó?",
+    "articulo_ids": [
+      1594
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué se hace cuando la adolescente embarazada no puede asistir regularmente a clases por razones médicas?",
+    "articulo_ids": [
+      1595
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué garantiza el Ministerio de Educación para evitar la discriminación hacia las estudiantes embarazadas?",
+    "articulo_ids": [
+      1596
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué sanción recibe un servidor público que se niegue a brindar los beneficios de la Ley 29 a una adolescente embarazada?",
+    "articulo_ids": [
+      1599
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué es el Premio Jeptha B. Duncan?",
+    "articulo_ids": [
+      1650
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué se considera innovación educativa según la Ley 54?",
+    "articulo_ids": [
+      1651
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quiénes integran el Comité de Selección del Premio Jeptha B. Duncan?",
+    "articulo_ids": [
+      1652
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿En qué consiste el Premio Jeptha B. Duncan?",
+    "articulo_ids": [
+      1653
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿El Comité de Selección puede recomendar pasantías en el extranjero para los ganadores del Premio Jeptha B. Duncan?",
+    "articulo_ids": [
+      1654
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Cada cuánto tiempo se otorga el Premio Jeptha B. Duncan?",
+    "articulo_ids": [
+      1655
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué instituciones coordinan los programas educativos en los centros penitenciarios?",
+    "articulo_ids": [
+      2152
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Dónde se crean los Centros Educativos de Telebásica para personas privadas de libertad?",
+    "articulo_ids": [
+      2153
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué plan de estudio ofrecen los Centros Educativos de Telebásica en los Centros Penitenciarios La Joya y La Joyita?",
+    "articulo_ids": [
+      2154
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién dicta las materias de Ciencias Sociales en los Centros Educativos de Telebásica de La Joya y La Joyita?",
+    "articulo_ids": [
+      2155
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Cuánto dura el período de clases en los Centros Educativos de Telebásica de los centros penitenciarios?",
+    "articulo_ids": [
+      2156
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué requisitos se necesitan para ser profesor del Programa de Telebásica en los Centros Penitenciarios La Joya y La Joyita?",
+    "articulo_ids": [
+      2157
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué certificado obtienen los egresados del Programa de Telebásica en los centros penitenciarios?",
+    "articulo_ids": [
+      2158
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Bajo la orientación de qué dirección funcionan los Centros Educativos de Telebásica de La Joya y La Joyita?",
+    "articulo_ids": [
+      2159
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué derecho reconoce la Ley 48 a los niños, las personas con discapacidad y otras poblaciones vulnerables en materia de inmunización?",
+    "articulo_ids": [
+      2531
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué lenguas indígenas reconoce la Ley 88?",
+    "articulo_ids": [
+      2659
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién puede revisar los alfabetos de las lenguas indígenas reconocidos por la Ley 88?",
+    "articulo_ids": [
+      2660
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién reglamenta los alfabetos indígenas según la Ley 88?",
+    "articulo_ids": [
+      2661
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Se enseñan las lenguas indígenas junto con el español en las comarcas y áreas anexas?",
+    "articulo_ids": [
+      2662
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién vela por el uso de las lenguas indígenas en las escuelas de las comarcas, áreas anexas y tierras colectivas?",
+    "articulo_ids": [
+      2663
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué se entiende por Educación Intercultural Bilingüe según la Ley 88?",
+    "articulo_ids": [
+      2665
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién diseña y supervisa el Plan Nacional de Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2666
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿En qué áreas desarrolla el Ministerio de Educación el sistema de Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2667
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Pueden las universidades promover la Educación Intercultural Bilingüe mediante cátedras, diplomados o posgrados?",
+    "articulo_ids": [
+      2668
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Es obligatoria la Educación Intercultural Bilingüe en las escuelas de comunidades indígenas?",
+    "articulo_ids": [
+      2669
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué facilita el Ministerio de Educación a los docentes que ya imparten clases en comunidades indígenas?",
+    "articulo_ids": [
+      2670
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién aprueba o avala los cursos de formación en Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2671
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué instituciones promueven carreras o cursos académicos para los docentes en Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2672
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Promueve el Estado la formación de educadores indígenas y no indígenas en las culturas y lenguas de los pueblos indígenas?",
+    "articulo_ids": [
+      2673
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué incentivo especial reciben los docentes que dominan la lengua originaria y cuentan con certificación de competencia lingüística y cultural?",
+    "articulo_ids": [
+      2674
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Pueden los estudiantes usar vestidos tradicionales indígenas en los centros de enseñanza?",
+    "articulo_ids": [
+      2675
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Tiene derecho una persona de origen indígena a usar su propia lengua ante una autoridad competente?",
+    "articulo_ids": [
+      2676
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Para qué se crea la unidad especial dentro de la Dirección Nacional de Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2677
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Para qué se creó el Fondo Especial de Educación para los Pueblos Indígenas?",
+    "articulo_ids": [
+      2679
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿De qué recursos se constituye el Fondo Especial de Educación para los Pueblos Indígenas?",
+    "articulo_ids": [
+      2680
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Qué programa especial de becas y créditos educativos existe para la Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2681
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿En qué se fundamenta el currículo de la Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2682
+    ],
+    "origen": "ia_asistida"
+  },
+  {
+    "tema": "Educación Especial, Inclusiva y Poblaciones Vulnerables",
+    "pregunta": "¿Quién participa en la elaboración de los planes de estudio diferenciados de la Educación Intercultural Bilingüe?",
+    "articulo_ids": [
+      2683
+    ],
+    "origen": "ia_asistida"
+  }
+]
