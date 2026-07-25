@@ -178,6 +178,44 @@
   }
   @media (max-width:860px){.mobile-filter-toggle{display:inline-block;}}
 
+  .mode-tabs{display:flex; gap:8px; margin-bottom:16px; border-bottom:1px solid var(--line);}
+  .mode-tab{
+    font-family:var(--sans); font-size:13.5px; font-weight:600; color:var(--ink-soft);
+    background:none; border:none; padding:9px 4px; cursor:pointer; border-bottom:2.5px solid transparent;
+    margin-bottom:-1px;
+  }
+  .mode-tab.active{color:var(--ink); border-bottom-color:var(--red);}
+
+  .faq-tema-group{margin-bottom:22px;}
+  .faq-tema-group h3{
+    font-family:var(--serif); font-size:15px; color:var(--ink); margin:0 0 8px;
+    border-bottom:1px solid var(--line); padding-bottom:5px;
+  }
+  .faq-item{
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:var(--radius);
+    margin-bottom:8px; overflow:hidden;
+  }
+  .faq-question{
+    width:100%; text-align:left; background:none; border:none; cursor:pointer;
+    padding:11px 14px; font-family:var(--sans); font-size:14px; font-weight:600; color:var(--ink);
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+  }
+  .faq-question:hover{background:var(--paper);}
+  .faq-question .arrow{font-size:12px; color:var(--ink-soft); transition:transform .15s;}
+  .faq-item.open .faq-question .arrow{transform:rotate(90deg);}
+  .faq-answer{display:none; padding:0 14px 14px;}
+  .faq-item.open .faq-answer{display:block;}
+  .faq-answer .faq-nota{
+    font-family:var(--sans); font-size:12px; color:var(--red); background:#FBEDEB;
+    border:1px dashed var(--red); border-radius:var(--radius); padding:7px 9px; margin-bottom:10px;
+  }
+  .faq-answer .faq-art{margin-bottom:12px; padding-bottom:12px; border-bottom:1px dashed var(--line);}
+  .faq-answer .faq-art:last-child{border-bottom:none; margin-bottom:0; padding-bottom:0;}
+  .faq-answer .faq-art .meta{
+    font-family:var(--sans); font-size:12px; font-weight:600; color:var(--ink-soft); margin-bottom:5px;
+  }
+  .faq-answer .faq-art .texto{font-family:var(--serif); font-size:14.5px; line-height:1.55;}
+
   .article-card{
     background:var(--paper-raised);
     border:1px solid var(--line);
@@ -206,6 +244,11 @@
   .article-card .full-meta{
     font-family:var(--sans); font-size:11.5px; color:var(--ink-soft); margin-top:8px;
     border-top:1px dashed var(--line); padding-top:8px;
+  }
+  .tema-chips{display:flex; flex-wrap:wrap; gap:5px; margin-top:9px;}
+  .tema-chip{
+    font-family:var(--sans); font-size:10.5px; color:var(--gold); border:1px solid var(--gold);
+    padding:2px 7px; border-radius:999px; white-space:nowrap;
   }
 
   .empty-state{
@@ -302,6 +345,10 @@
       <button id="searchBtn" aria-label="Buscar">🔍</button>
     </div>
 
+    <h2>Temas prácticos</h2>
+    <ul class="cat-list" id="temaList"><!-- se llena por JS --></ul>
+    <button class="clear-filters" id="clearTemaFilter">Quitar filtro de tema</button>
+
     <h2>Fuentes normativas</h2>
     <ul class="cat-list" id="catList"><!-- se llena por JS --></ul>
     <button class="clear-filters" id="clearFilters">Quitar filtro</button>
@@ -309,11 +356,16 @@
 
   <main>
     <button class="mobile-filter-toggle" id="mobileFilterToggle">☰ Buscar y filtrar</button>
-    <div class="status-line">
+    <div class="mode-tabs">
+      <button class="mode-tab active" id="tabExplorar">Explorar artículos</button>
+      <button class="mode-tab" id="tabFaq">Preguntas frecuentes</button>
+    </div>
+    <div class="status-line" id="exploreView">
       <span id="statusText">Cargando corpus normativo…</span>
       <span id="statusCount"></span>
     </div>
     <div id="results"></div>
+    <div id="faqView" style="display:none;"></div>
   </main>
 </div>
 
@@ -349,7 +401,7 @@
     <div class="row">
       <button class="danger" id="clearCacheBtn">Limpiar caché de la app</button>
     </div>
-    <p class="hint" style="margin-top:14px; text-align:center; opacity:.7;">Versión del código: 2026-07-24-c</p>
+    <p class="hint" style="margin-top:14px; text-align:center; opacity:.7;">Versión del código: 2026-07-24-e</p>
   </div>
 </div>
 
@@ -360,6 +412,7 @@
   // ---------- Estado ----------
   let corpus = [];
   let activeCategory = null;
+  let activeTema = null;
   let lastQuery = "";
   const RESULT_LIMIT = 80;
 
@@ -368,6 +421,8 @@
     searchBtn: document.getElementById('searchBtn'),
     catList: document.getElementById('catList'),
     clearFilters: document.getElementById('clearFilters'),
+    temaList: document.getElementById('temaList'),
+    clearTemaFilter: document.getElementById('clearTemaFilter'),
     results: document.getElementById('results'),
     statusText: document.getElementById('statusText'),
     statusCount: document.getElementById('statusCount'),
@@ -452,6 +507,7 @@
       .then(data => {
         corpus = data;
         buildCategoryList();
+        buildTemaList();
         render();
       })
       .catch(err => {
@@ -477,18 +533,44 @@
     ).join("");
   }
 
+  function buildTemaList(){
+    const counts = {};
+    corpus.forEach(a => (a.temas||[]).forEach(t => { counts[t] = (counts[t]||0) + 1; }));
+    const temas = Object.keys(counts).sort((a,b)=> counts[b]-counts[a]);
+    els.temaList.innerHTML = temas.map(t =>
+      `<li><button data-tema="${escapeHtml(t)}">
+        <span>${escapeHtml(t)}</span><span class="count">${counts[t]}</span>
+      </button></li>`
+    ).join("");
+  }
+
   els.catList.addEventListener('click', (e)=>{
     const btn = e.target.closest('button[data-cat]');
     if(!btn) return;
     activeCategory = btn.dataset.cat;
-    document.querySelectorAll('.cat-list button').forEach(b=>b.classList.toggle('active', b===btn));
+    els.catList.querySelectorAll('button').forEach(b=>b.classList.toggle('active', b===btn));
     render();
     closeMobileFilters();
   });
 
+  els.temaList.addEventListener('click', (e)=>{
+    const btn = e.target.closest('button[data-tema]');
+    if(!btn) return;
+    activeTema = btn.dataset.tema;
+    els.temaList.querySelectorAll('button').forEach(b=>b.classList.toggle('active', b===btn));
+    render();
+    closeMobileFilters();
+  });
+
+  els.clearTemaFilter.addEventListener('click', ()=>{
+    activeTema = null;
+    els.temaList.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+    render();
+  });
+
   els.clearFilters.addEventListener('click', ()=>{
     activeCategory = null;
-    document.querySelectorAll('.cat-list button').forEach(b=>b.classList.remove('active'));
+    els.catList.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
     render();
   });
 
@@ -497,6 +579,7 @@
     const terms = normalize(query).split(/\s+/).filter(Boolean);
     let pool = corpus;
     if(activeCategory) pool = pool.filter(a => a.categoria === activeCategory);
+    if(activeTema) pool = pool.filter(a => (a.temas||[]).includes(activeTema));
     if(!terms.length) return pool.slice(0, RESULT_LIMIT).map(a=>({item:a, score:0}));
 
     const scored = [];
@@ -524,9 +607,10 @@
     const terms = normalize(query).split(/\s+/).filter(Boolean);
     const matches = search(query);
 
+    const filtroActivo = [activeTema, activeCategory].filter(Boolean).join(" · ");
     els.statusText.textContent = query
-      ? `Resultados para "${query}"` + (activeCategory ? ` en ${activeCategory}` : "")
-      : (activeCategory ? `Explorando: ${activeCategory}` : `Explorando todo el corpus`);
+      ? `Resultados para "${query}"` + (filtroActivo ? ` en ${filtroActivo}` : "")
+      : (filtroActivo ? `Explorando: ${filtroActivo}` : `Explorando todo el corpus`);
     els.statusCount.textContent = `${matches.length}${matches.length===RESULT_LIMIT?"+":""} de ${corpus.length} artículos`;
 
     if(!matches.length){
@@ -541,6 +625,7 @@
           <span class="art-tag">Art. ${escapeHtml(a.articulo)}${a.articulo_original ? " (" + escapeHtml(a.articulo_original) + ")" : ""}</span>
         </div>
         <div class="snippet" data-full="0">${highlight(snippet(a.texto, terms), terms)}</div>
+        ${(a.temas && a.temas.length) ? `<div class="tema-chips">${a.temas.map(t=>`<span class="tema-chip">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
       </article>
     `).join("");
   }
@@ -775,6 +860,88 @@ Responde en español, de forma clara y breve.`;
     if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); askAssistant(); }
   });
 
+  // ---------- Preguntas frecuentes ----------
+  let faqData = [];
+
+  function loadFaq(){
+    return fetch('./data/faq.json')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => { faqData = data; renderFaq(); })
+      .catch(() => { faqData = []; });
+  }
+
+  function renderFaq(){
+    const byTema = {};
+    faqData.forEach(f => {
+      if(!byTema[f.tema]) byTema[f.tema] = [];
+      byTema[f.tema].push(f);
+    });
+
+    const faqView = document.getElementById('faqView');
+    if(!faqData.length){
+      faqView.innerHTML = `<div class="empty-state">No se pudieron cargar las preguntas frecuentes.</div>`;
+      return;
+    }
+
+    faqView.innerHTML = Object.entries(byTema).map(([tema, preguntas]) => `
+      <div class="faq-tema-group">
+        <h3>${escapeHtml(tema)}</h3>
+        ${preguntas.map((f, i) => `
+          <div class="faq-item" data-tema="${escapeHtml(tema)}" data-idx="${i}">
+            <button class="faq-question">
+              <span>${escapeHtml(f.pregunta)}</span><span class="arrow">▶</span>
+            </button>
+            <div class="faq-answer"></div>
+          </div>
+        `).join("")}
+      </div>
+    `).join("");
+  }
+
+  document.getElementById('faqView').addEventListener('click', (e)=>{
+    const btn = e.target.closest('.faq-question');
+    if(!btn) return;
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.toggle('open');
+    if(isOpen && !item.dataset.rendered){
+      const tema = item.dataset.tema;
+      const idx = Number(item.dataset.idx);
+      const f = faqData.filter(x => x.tema === tema)[idx];
+      const answerEl = item.querySelector('.faq-answer');
+      const arts = f.articulo_ids.map(id => corpus.find(a => a.id === id)).filter(Boolean);
+      answerEl.innerHTML =
+        (f.nota ? `<div class="faq-nota">${escapeHtml(f.nota)}</div>` : "") +
+        arts.map(a => `
+          <div class="faq-art">
+            <div class="meta">${escapeHtml(a.fuente)} — Art. ${escapeHtml(a.articulo)}</div>
+            <div class="texto">${escapeHtml(a.texto)}</div>
+          </div>
+        `).join("");
+      item.dataset.rendered = "1";
+    }
+  });
+
+  // ---------- Pestañas de modo ----------
+  const tabExplorar = document.getElementById('tabExplorar');
+  const tabFaq = document.getElementById('tabFaq');
+  const exploreView = document.getElementById('exploreView');
+  const faqViewEl = document.getElementById('faqView');
+
+  tabExplorar.addEventListener('click', ()=>{
+    tabExplorar.classList.add('active');
+    tabFaq.classList.remove('active');
+    exploreView.style.display = '';
+    els.results.style.display = '';
+    faqViewEl.style.display = 'none';
+  });
+  tabFaq.addEventListener('click', ()=>{
+    tabFaq.classList.add('active');
+    tabExplorar.classList.remove('active');
+    exploreView.style.display = 'none';
+    els.results.style.display = 'none';
+    faqViewEl.style.display = '';
+  });
+
   // ---------- Service worker ----------
   if('serviceWorker' in navigator){
     window.addEventListener('load', ()=>{
@@ -783,7 +950,7 @@ Responde en español, de forma clara y breve.`;
   }
 
   // ---------- Arranque ----------
-  loadCorpus();
+  loadCorpus().then(loadFaq);
 })();
 </script>
 </body>
