@@ -241,7 +241,7 @@
   .ai-msg{margin-bottom:12px;}
   .ai-msg.user{font-weight:600; color:var(--ink);}
   .ai-msg.assistant{font-family:var(--serif); white-space:pre-wrap;}
-  .ai-msg .cites{margin-top:6px; font-family:var(--mono); font-size:11px; color:var(--ink-soft);}
+  .ai-msg .cites{margin-top:6px; font-family:var(--mono); font-size:11px; color:var(--ink-soft); white-space:pre-wrap;}
   .ai-input-row{display:flex; border-top:1px solid var(--line);}
   .ai-input-row textarea{
     flex:1; border:none; resize:none; padding:10px; font-family:var(--sans); font-size:13px;
@@ -349,6 +349,7 @@
     <div class="row">
       <button class="danger" id="clearCacheBtn">Limpiar caché de la app</button>
     </div>
+    <p class="hint" style="margin-top:14px; text-align:center; opacity:.7;">Versión del código: 2026-07-24-c</p>
   </div>
 </div>
 
@@ -610,10 +611,30 @@
   aiFab.addEventListener('click', ()=> aiPanel.classList.toggle('open'));
   document.getElementById('aiCloseBtn').addEventListener('click', ()=> aiPanel.classList.remove('open'));
 
+  // Bono por cercanía: premia cuando dos términos de la pregunta aparecen
+  // cerca uno del otro en el texto, sin importar qué palabras haya en medio
+  // (ej. "funciones" ... "de los" ... "supervisores"). Un bono de frase que
+  // exigiera palabras pegadas se queda corto en textos legales, donde casi
+  // siempre hay preposiciones y artículos entre las palabras clave.
+  function proximityBonus(hay, terms){
+    let bonus = 0;
+    for(let i=0;i<terms.length;i++){
+      for(let j=i+1;j<terms.length;j++){
+        const a = terms[i], b = terms[j];
+        const ia = hay.indexOf(a);
+        const ib = hay.indexOf(b);
+        if(ia===-1 || ib===-1) continue;
+        const dist = Math.abs(ia-ib);
+        if(dist <= 120) bonus += 4;
+        else if(dist <= 300) bonus += 1.5;
+      }
+    }
+    return bonus;
+  }
+
   function topRelevant(query, n){
     const terms = tokenize(query);
     if(!terms.length) return [];
-    const phrases = bigrams(terms);
 
     const scored = corpus.map(a=>{
       const fuenteN = normalize(a.fuente||"");
@@ -626,18 +647,13 @@
         if(hay.includes(t)){
           score += 1;
           if(fuenteN.includes(t)) score += 1.5;
-          if(tituloN.includes(t)) score += 2;
+          if(tituloN.includes(t)) score += 2.5;
         }
       });
-      // Las coincidencias de frase completa (dos palabras seguidas, ej.
-      // "baja matricula") son mucho más específicas que palabras sueltas,
-      // así que pesan bastante más — esto es lo que hace que artículos
-      // como "traslado por baja matrícula" superen a los que solo
-      // comparten una palabra suelta con la pregunta.
-      phrases.forEach(p=>{
-        if(hay.includes(p)) score += 4;
-        if(tituloN.includes(p)) score += 3;
-      });
+      if(terms.length > 1){
+        score += proximityBonus(hay, terms);
+        score += proximityBonus(tituloN, terms) * 1.5;
+      }
 
       return {item:a, score};
     }).filter(x=>x.score>0);
@@ -655,6 +671,35 @@
     return div;
   }
 
+  // Traduce la pregunta del usuario (a menudo en lenguaje coloquial) a
+  // términos jurídicos formales antes de buscar. Ej: "permiso" -> "licencia",
+  // "cambio de puesto" -> "traslado". Sin este paso, preguntas cotidianas
+  // no encuentran los artículos aunque el tema sí esté cubierto, porque la
+  // búsqueda es por coincidencia de palabras, no por significado.
+  async function expandQueryTerms(question, apiKey){
+    try{
+      const resp = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey },
+        body: JSON.stringify({
+          model: 'llama-3.3-70b-versatile',
+          messages: [
+            { role: 'system', content: 'Conviertes preguntas coloquiales sobre normativa educativa panameña en términos jurídicos formales para búsqueda. Da entre 4 y 8 palabras o expresiones cortas en español (términos legales/administrativos formales, sinónimos incluidos), separadas por comas, sin numerar y sin explicar nada más. Ejemplo: pregunta "¿puedo faltar si mi hijo se enferma?" -> respuesta: licencia, permiso, ausencia justificada, enfermedad de familiar, inasistencia' },
+            { role: 'user', content: question }
+          ],
+          temperature: 0.1,
+          max_tokens: 100
+        })
+      });
+      if(!resp.ok) return [];
+      const data = await resp.json();
+      const raw = data.choices?.[0]?.message?.content || '';
+      return raw.split(',').map(s=>s.trim()).filter(Boolean);
+    } catch(err){
+      return []; // si falla la expansión, seguimos solo con la pregunta original
+    }
+  }
+
   async function askAssistant(){
     const question = aiInput.value.trim();
     if(!question) return;
@@ -666,17 +711,27 @@
     addAiMessage('user', escapeHtml(question));
     aiInput.value = '';
     aiSendBtn.disabled = true;
-    const loadingEl = addAiMessage('assistant', 'Consultando el marco jurídico…');
+    const loadingEl = addAiMessage('assistant', 'Buscando términos jurídicos relacionados…');
 
-    const relevant = topRelevant(question, 9);
+    const expansions = await expandQueryTerms(question, apiKey);
+    loadingEl.textContent = 'Consultando el marco jurídico…';
+
+    const searchText = expansions.length ? question + ' ' + expansions.join(' ') : question;
+    const relevant = topRelevant(searchText, 9);
     const context = relevant.map(a =>
       `[${a.fuente} — Art. ${a.articulo}]\n${a.texto}`
     ).join("\n\n---\n\n");
 
-    const systemPrompt = `Eres un asistente de referencia sobre el marco jurídico de la educación panameña.
-Responde SOLO con base en los artículos de contexto proporcionados. Si el contexto no alcanza para responder,
-dilo claramente en vez de inventar. Cita siempre la fuente y el número de artículo entre corchetes, ej: [Ley 47, Art. 12].
-Aclara que esto es información de referencia y no asesoría legal formal. Responde en español, de forma clara y breve.`;
+    const systemPrompt = `Eres un asistente de referencia sobre el marco jurídico de la educación panameña. Tu única función es reportar lo que dicen literalmente los artículos de contexto proporcionados — no eres un asesor ni un comentarista.
+
+Reglas estrictas:
+1. Responde ÚNICAMENTE con base en el contenido literal de los artículos de contexto. No agregues interpretaciones, opiniones, supuestos, ni conocimiento general que no esté en el texto citado.
+2. No especules sobre motivos, intenciones, "por qué" alguien dijo algo, ni sobre prácticas administrativas que no estén escritas en los artículos. Si la pregunta pide una opinión o una explicación de motivos, responde solo con lo que la norma efectivamente establece, y aclara que no hay un artículo que explique motivos o intenciones si es el caso.
+3. Si el contexto no contiene la respuesta, dilo explícitamente ("no hay un artículo en el contexto que cubra esto") en vez de razonar, inferir o completar con suposiciones.
+4. Cita siempre la fuente y el número de artículo entre corchetes, ej: [Ley 47, Art. 12], para cada afirmación.
+5. No des consejos, recomendaciones de acción, ni valoraciones sobre si algo es correcto o injusto — solo describe lo que la norma dice.
+6. Aclara siempre que esto es información de referencia y no asesoría legal formal.
+Responde en español, de forma clara y breve.`;
 
     try{
       const resp = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -704,7 +759,9 @@ Aclara que esto es información de referencia y no asesoría legal formal. Respo
       const cites = relevant.map(a => `${a.fuente} — Art. ${a.articulo}`).join(' · ');
       const citesEl = document.createElement('div');
       citesEl.className = 'cites';
-      citesEl.textContent = 'Fuentes consultadas: ' + cites;
+      let citesText = 'Fuentes consultadas: ' + cites;
+      if(expansions.length) citesText += '\nTérminos jurídicos usados en la búsqueda: ' + expansions.join(', ');
+      citesEl.textContent = citesText;
       loadingEl.appendChild(citesEl);
     } catch(err){
       loadingEl.textContent = 'Error al consultar la IA: ' + err.message;
