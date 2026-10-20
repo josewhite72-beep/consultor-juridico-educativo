@@ -1,7 +1,7 @@
 // Service worker — estrategia network-first
 // Consultoría Jurídica Educativa - Panamá
 
-const CACHE_NAME = 'consulta-juridica-v2';
+const CACHE_NAME = 'consulta-juridica-v3';
 // Nota: corpus.json NO se precachea en el install. Es un archivo grande
 // (2+ MB) y si la descarga se corta a medio camino (conexión débil),
 // cache.addAll() fallaría la instalación completa del service worker.
